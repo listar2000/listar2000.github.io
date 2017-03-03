@@ -16,7 +16,7 @@ nav_exclude: true
 @import "../_sass/fonts";
 @import "../_sass/settings";
 @import "../_sass/syntax-highlighting";
-
+@import "icomoon.css";
 // Global Resets
 //
 * { margin: 0; padding: 0; }
@@ -518,80 +518,10 @@ hr.slender {
     }
 }
 
-
-/* --- Icomoon icon fonts CSS --*/
-@font-face {
-  font-family: 'icomoon';
-  src:url('../fonts/icomoon.eot?rgwlb8');
-  src:url('../fonts/icomoon.eot?#iefixrgwlb8') format('embedded-opentype'),
-    url('../fonts/icomoon.woff?rgwlb8') format('woff'),
-    url('../fonts/icomoon.ttf?rgwlb8') format('truetype'),
-    url('../fonts/icomoon.svg?rgwlb8#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+nav .left {
+    float: left;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  color: $contrast-color;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav .right {
+    float: right;
 }
-
-.icon-pencil:before {
-  content: "\e600";
-}
-.icon-film:before {
-  content: "\e60f";
-}
-.icon-calendar:before {
-  content: "\e601";
-}
-.icon-link:before {
-  content: "\e602";
-}
-.icon-info:before {
-  content: "\e603";
-}
-.icon-cancel-circle:before {
-  content: "\e604";
-}
-.icon-checkmark-circle:before {
-  content: "\e605";
-}
-.icon-spam:before {
-  content: "\e606";
-}
-.icon-mail:before {
-  content: "\e607";
-}
-.icon-googleplus:before {
-  content: "\e608";
-}
-.icon-facebook:before {
-  content: "\e609";
-}
-.icon-twitter:before {
-  content: "\e60a";
-}
-.icon-feed:before {
-  content: "\e60b";
-}
-.icon-flickr:before {
-  content: "\e60c";
-}
-.icon-github:before {
-  content: "\e60d";
-}
-.icon-box-add:before {
-  content: "\e60e";
-}
-/*-- End of Icomoon icon font section --*/
