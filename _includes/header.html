@@ -2,8 +2,9 @@
 <header>
     <nav class="group">
         <a class="left" href="{{site.baseurl}}/"><strong>Eric Potash</strong></a>
-        <!--<a href="{{site.baseurl}}/"><img class="badge" src="{{site.baseurl}}/assets/img/badge_1.png" alt="CH"></a> -->
-	{% for node in site.pages %}
+	<a class="right" href="{{prepend: site.baseurl}}/cv.pdf">cv</a>
+        {% assign pages = site.pages | sort:"weight" | reverse %}
+	{% for node in pages %}
 		{% unless node.nav_exclude %}
 		    {% if page.url == node.url %}
 		      <a class="active right" href="{{node.url | prepend: site.baseurl}}" class="active">{{node.title}}</a>

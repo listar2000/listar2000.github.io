@@ -1,10 +1,12 @@
 ---
 layout: full-width
 title: blog
+weight: 3
 # Note that this index page uses a full-width layout!
 ---
 
   <ul class="content-listing ">
+    {% comment %}
     {% for post in site.posts %}      
         <li class="listing">
           <hr class="slender">
@@ -13,4 +15,5 @@ title: blog
           <div>{{ post.excerpt }}</div> 
         </li>
     {% endfor %}
+    {% endcomment %}
   </ul>

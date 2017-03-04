@@ -1,9 +1,8 @@
 baseurl:
 title: Eric Potash
-subtitle: Content-centric blogging
 author: Eric Potash
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
+description: Personal webpage
 name: Eric Potash
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -14,10 +13,14 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'REA
 post:
   template: _post.txt
   extension: md
-page:
-  template: _page.txt
-  extension: md
-editor: gvim
+my_pages:
+    - a
+    - b
+    - c
+#page:
+#  template: _page.txt
+#  extension: md
+editor: vim
 git:
   branch: master
 transfer:
