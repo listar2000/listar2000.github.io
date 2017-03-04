@@ -13,14 +13,12 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'REA
 post:
   template: _post.txt
   extension: md
-my_pages:
-    - a
-    - b
-    - c
 #page:
 #  template: _page.txt
 #  extension: md
 editor: vim
+gems:
+    - jekyll-seo-tag
 git:
   branch: master
 transfer:

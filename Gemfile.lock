@@ -36,6 +36,8 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
+    jekyll-seo-tag (1.2.0)
+      jekyll (>= 2.0)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
     kramdown (1.8.0)
@@ -69,4 +71,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-seo-tag
   rouge
+
+BUNDLED WITH
+   1.13.7
