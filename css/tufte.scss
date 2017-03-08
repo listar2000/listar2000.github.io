@@ -341,7 +341,6 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 header > nav.group, body footer {
   width: 95%;
-  padding-top: 2rem;
 }
 
 nav.group a.active:before{ content:"\0003c\000a0";} // escaped unicode for the carats and then a space on active menu links
@@ -356,19 +355,38 @@ header > nav  a{
   padding-top: 1.5rem;
   text-decoration: none;
   display: inline-block;
-  float: left;
   margin-top: 0;
   margin-bottom: 0;
   padding-right: 2rem;
-  //margin-left: 1rem;
+  margin-left: 1rem;
   vertical-align: baseline;
 }
+
 header > nav a img{
   height: 5rem;
   position: relative;
   max-width: 100%;
   top:-1.5rem;
 }
+
+ul.topnav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav li a {
+    display: block;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: left; width:100%; margin-top: 0rem}
+}
+
 ul.footer-links, .credits{
   list-style: none;
   text-align: center;
@@ -518,10 +536,10 @@ hr.slender {
     }
 }
 
-nav .left {
+nav a.left {
     float: left;
 }
 
-nav .right {
+nav a.right {
     float: right;
 }
