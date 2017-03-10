@@ -343,6 +343,10 @@ header > nav.group, body footer {
   width: 95%;
 }
 
+header > nav.group {
+    padding-top: 1rem;
+}
+
 nav.group a.active:before{ content:"\0003c\000a0";} // escaped unicode for the carats and then a space on active menu links
 nav.group a.active:after{ content:"\000a0\0003e" ;}
 
@@ -379,13 +383,15 @@ ul.topnav {
 
 ul.topnav, ul.topnav li {
     display:inline;
+    padding: 0;
 }
 
 ul.topnav li a {
     margin: 0;
 }
 
-/*@media screen and (max-width: 20em){
+/* This stacks nav elements when narrow. Currently unnecessary
+@media screen and (max-width: 20em){
     ul.topnav li.right, 
     ul.topnav li {float: left; width:100%; margin-top: 0rem}
 }*/
