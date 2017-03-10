@@ -209,7 +209,7 @@ section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
 
-ul,ol { width: 45%;
+ul:not(.topnav),ol { width: 45%;
      -webkit-padding-start: 5%;
      -webkit-padding-end: 5%;
      list-style-type: none; }
@@ -274,7 +274,7 @@ div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' 
 
 @media screen and (max-width: 760px) { p, footer,div.mathblock { width: 90%; }
                                        pre code { width: 87.5%; }
-                                       ul { width: 85%; }
+                                       ul:not(.topnav) { width: 85%; }
                                        figure { max-width: 90%; }
                                        figcaption, figure.fullwidth figcaption { margin-right: 0%;
                                                                                  max-width: none; }
@@ -371,21 +371,24 @@ header > nav a img{
 
 ul.topnav {
     list-style-type: none;
-    width: 100%;
+    float: right;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
+ul.topnav, ul.topnav li {
+    display:inline;
+}
+
 ul.topnav li a {
-    display: block;
     margin: 0;
 }
 
-@media screen and (max-width: 24em){
+/*@media screen and (max-width: 20em){
     ul.topnav li.right, 
     ul.topnav li {float: left; width:100%; margin-top: 0rem}
-}
+}*/
 
 ul.footer-links, .credits{
   list-style: none;

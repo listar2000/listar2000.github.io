@@ -1,8 +1,10 @@
 <!--- Header and nav template site-wide -->
 <header>
     <nav class="group">
+        <ul class="topnav" style="float:left">
+            <li><a class="left" href="{{site.baseurl}}/"><strong>Eric Potash</strong></a></li>
+        </ul>
 	<ul class="topnav">    
-        <li><a class="left" href="{{site.baseurl}}/"><strong>Eric Potash</strong></a></li>
         <li><a class="right" href="{{prepend: site.baseurl}}/cv.pdf">cv</a></li>
         {% assign pages = site.pages | sort:"weight" | reverse %}
 	{% for node in pages %}
