@@ -6,7 +6,7 @@ exclude_title: true
 nav_exclude: true
 ---
 
-I'm a researcher at the Universty of Chicago's Center for Data Science and Public Policy.
+I'm a post-doctoral researcher at the Universty of Chicago's Center for Data Science and Public Policy.
 
 I currently work in the domains of public health (childhood lead poisoning) and the environment (hazardous waste).
 
