@@ -9,7 +9,6 @@ nav_exclude: true
 I'm a post-doctoral researcher at the University of Chicago's Center for Data Science and Public Policy.
 
 I currently work in the domains of public health (childhood lead poisoning) and the environment (hazardous waste).
-
 My research interests include targeted interventions, causal inference (program evaluation), field trial design, sample selection bias, and spatiotemporal modeling.
 
 I previously studied mathematics and my [dissertation]({{site.baseurl}}/assets/pdf/dissertation.pdf) was in the field of geometric analysis.
