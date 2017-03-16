@@ -56,5 +56,5 @@ This software calculates the carbon footprint of flights and utilities by parsin
 {% newthought 'Cook Scheduler' %}
 <small>[[GitHub](https://github.com/potash/cook_scheduler)]</small>
 
-I wrote a program that uses linear programming to optimize the creation of a cook schedule given each cook's preferences.
+I wrote a program that uses linear programming to optimize the selection of a cook schedule given each cook's preferences.
 
