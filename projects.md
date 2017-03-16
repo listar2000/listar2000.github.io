@@ -21,7 +21,7 @@ I led a collaboration with the New York State Department of Environmental Conser
 
 {% newthought 'Election Information' %}
 
-My article [Why It's So Hard To Find Out Where the Candidates Stand]() about the history and future of election information was published in the Washington Monthly.
+My article [Why It's So Hard To Find Out Where the Candidates Stand](http://washingtonmonthly.com/2016/11/04/why-its-so-hard-to-find-out-where-the-candidates-stand/) about the history and future of election information was published in the Washington Monthly.
 
 ## Data
 
