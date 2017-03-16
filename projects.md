@@ -38,7 +38,7 @@ This is a Python library for generating spatiotemporal aggregation SQL queries, 
 {% newthought 'acs2pgsql' %}
 <small>[[GitHub](https://github.com/dssg/acs2pgsql)]</small>
 
-This is a [drake](https://github.com/factual/drake) pipeline for bulk importing the American Community survey data from the U.S. Census FTP into a PostgreSQL database.
+This is a [drake](https://github.com/factual/drake) pipeline for bulk importing the American Community survey data and TIGER shapefiles from the U.S. Census FTP into a PostgreSQL database.
 
 {% newthought 'dmr' %}
 <small>[[GitHub](https://github.com/dssg/il-dmr)]</small>
