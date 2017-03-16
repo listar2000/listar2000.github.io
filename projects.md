@@ -35,6 +35,11 @@ This is a simple and powerful Python framework for reproducible and parallel dat
 
 This is a Python library for generating spatiotemporal aggregation SQL queries, primarily for building features for machine learning and other models.
 
+{% newthought 'acs2pgsql' %}
+<small>[[GitHub](https://github.com/dssg/acs2pgsql)]</small>
+
+This is a [drake](https://github.com/factual/drake) pipeline for bulk importing the American Community survey data from the U.S. Census FTP into a PostgreSQL database.
+
 {% newthought 'dmr' %}
 <small>[[GitHub](https://github.com/dssg/il-dmr)]</small>
 
