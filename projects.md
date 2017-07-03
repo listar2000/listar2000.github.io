@@ -8,7 +8,7 @@ weight: 2
 {% newthought 'Childhood Lead Poisoning' %}
 <small>
 [[KDD '15]({{site.baseurl}}/assets/pdf/lead_kdd.pdf)]
-[[GitHub](https://github.com/dssg/lead-public)]
+[[GitHub](https://github.com/potash/lead-public)]
 [[Chicago Tribune](http://www.chicagotribune.com/news/ct-big-data-police-misconduct-met-20160816-story.html), [The Atlantic](https://www.theatlantic.com/technology/archive/2016/01/predictive-policing-food-poisoning/423126/), [South Side Weekly](http://southsideweekly.com/living-with-lead/)]</small>
 
 In collaboration with the Chicago Department of Public Health, I led the development of a predictive model to drive targeted home lead investigations which we are currently in the process of piloting.
@@ -26,7 +26,7 @@ My article [Why It's So Hard To Find Out Where the Candidates Stand](http://wash
 ## Data
 
 {% newthought 'drain' %}
-<small>[[GitHub](https://github.com/dssg/drain)]</small>
+<small>[[GitHub](https://github.com/potash/drain)]</small>
 
 This is a simple and powerful Python framework for reproducible and parallel data science workflows.
 
