@@ -2,10 +2,10 @@
 <header>
     <nav class="group">
         <ul class="topnav" style="float:left">
-            <li><a class="left" href="{{site.baseurl}}/"><strong>Eric Potash</strong></a></li>
+            <li><a style="padding-top:.5em" href="{{site.baseurl}}/"><strong>Eric Potash</strong></a></li>
         </ul>
 	<ul class="topnav">    
-        <li><a class="right" href="{{site.baseurl}}/assets/pdf/epotash_cv.pdf">cv</a></li>
+        <li><a href="{{site.baseurl}}/assets/pdf/epotash_cv.pdf">cv</a></li>
         {% assign pages = site.pages | sort:"weight" | reverse %}
 	{% for node in pages %}
 		{% unless node.nav_exclude %}
