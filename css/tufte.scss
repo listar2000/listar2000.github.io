@@ -17,6 +17,7 @@ nav_exclude: true
 @import "../_sass/settings";
 @import "../_sass/syntax-highlighting";
 @import "icomoon.css";
+
 // Global Resets
 //
 * { margin: 0; padding: 0; }
@@ -121,6 +122,9 @@ p .subtitle { font-style: italic;
 
 p, ol, ul { font-size: 1.4rem; }
 
+ul.topnav { width: 100% }
+ul.topnav > li { padding-right: 0em }
+
 p, li { line-height: 2rem;
         margin-top: 1.4rem;
         padding-right: 2rem; //removed because,  why?
@@ -209,7 +213,7 @@ section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
 
-ul:not(.topnav),ol { width: 45%;
+ul,ol { width: 45%;
      -webkit-padding-start: 5%;
      -webkit-padding-end: 5%;
      list-style-type: none; }
@@ -274,7 +278,7 @@ div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' 
 
 @media screen and (max-width: 760px) { p, footer,div.mathblock { width: 90%; }
                                        pre code { width: 87.5%; }
-                                       ul:not(.topnav) { width: 85%; }
+                                       ul { width: 85%; }
                                        figure { max-width: 90%; }
                                        figcaption, figure.fullwidth figcaption { margin-right: 0%;
                                                                                  max-width: none; }
@@ -339,12 +343,9 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 .smaller { font-size: 80%;}
 //Nav and Footer styling area
 
-header > nav.group, body footer {
+body footer {
   width: 100%;
-}
-
-header > nav.group {
-    padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 nav.group a.active:before{ content:"\0003c\000a0";} // escaped unicode for the carats and then a space on active menu links
@@ -359,47 +360,19 @@ header > nav  a{
   padding-top: 1.5rem;
   text-decoration: none;
   display: inline-block;
+  float: left;
   margin-top: 0;
   margin-bottom: 0;
   padding-right: 2rem;
-  margin-left: 1rem;
+  //margin-left: 1rem;
   vertical-align: baseline;
 }
-
 header > nav a img{
   height: 5rem;
   position: relative;
   max-width: 100%;
   top:-1.5rem;
 }
-
-ul.topnav {
-    list-style-type: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-ul.topnav, ul.topnav li {
-    display:inline;
-    padding: 0;
-}
-
-ul.topnav strong {
-    font-size: 1.5rem
-}
-
-ul.topnav li a {
-    margin: 0;
-}
-
-/* This stacks nav elements when narrow. Currently unnecessary
-@media screen and (max-width: 20em){
-    ul.topnav li.right, 
-    ul.topnav li {float: left; width:100%; margin-top: 0rem}
-}*/
-
 ul.footer-links, .credits{
   list-style: none;
   text-align: center;
@@ -547,12 +520,4 @@ hr.slender {
     body header , body footer {
       display:none;
     }
-}
-
-nav a.left {
-    float: left;
-}
-
-nav a.right {
-    float: right;
 }
