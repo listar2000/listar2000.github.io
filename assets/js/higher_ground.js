@@ -31,6 +31,7 @@ function higher_ground(args) {
     viewers[name] = pannellum.viewer(name + '-panorama', {
         "type": "equirectangular",
         "panorama": imageUrl,
+        "preview": imageUrl,
         "yaw": yaw,
         "vaov": 54.15,
         "hfov": calculateHfov(width),
