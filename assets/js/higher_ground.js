@@ -36,7 +36,7 @@ function higher_ground(args) {
         "hfov": calculateHfov(width),
         "minPitch":-25,
         "maxPitch":25,
-        "autoLoad":true
+        "autoLoad":false
     });
 
     var mymap = L.map(name + '-map').setView([lat, lng], 13);
