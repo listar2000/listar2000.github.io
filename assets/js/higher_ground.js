@@ -5,6 +5,8 @@ DEGREES_PER_RADIAN = 180/Math.PI
 viewers = []
 maps = []
 
+L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.2.0/dist/images/'
+
 function calculateHfov(width) {
     return 2*Math.atan(width/300/2) * DEGREES_PER_RADIAN
 }
