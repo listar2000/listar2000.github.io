@@ -2,13 +2,11 @@
 layout: full-width
 title: blog
 weight: 3
-nav_exclude: true
+nav_exclude: false
 # Note that this index page uses a full-width layout!
 ---
   <br/>
-  <center><img src="{{site.baseurl}}/assets/img/construction.gif"></img></center>
   <ul class="content-listing ">
-    {% comment %}
     {% for post in site.posts %}      
         <li class="listing">
           <hr class="slender">
@@ -17,5 +15,4 @@ nav_exclude: true
           <div>{{ post.excerpt }}</div> 
         </li>
     {% endfor %}
-    {% endcomment %}
   </ul>

@@ -1,0 +1,21 @@
+@media (min-width: 760px) {
+    figure.higherground {
+        max-width: 75%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+figure.higherground > figcaption {
+    float: left;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+div.higherground_panorama {
+    height: 300px
+}
+
+div.higherground_map {
+    height: 200px
+}
