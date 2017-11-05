@@ -22,10 +22,8 @@ How remote is the Lakefront trail? Just 608 feet, when the path goes east around
 {% higherground lakefront  -87.61536 41.86810 'https://i.imgur.com/9tiJATm.jpg' 608 0 "An interactive panorama (above) I shot at the point farthest from a road in the Lakefront trail. And a map (below) with a marker at the point and a circle of radius equal to the distance to the nearest road, so the each circle contains no roads." %}
 <br/>
 
-Next I visited the most remote points in Chicago's parks. I was surprised in a number of ways. First, by just how remote these spots are. Second, by the beauty that my simplistic measure of remoteness led me to. Third, by the fact that 5 of the top 7 are on Chicago's South Side. But that's not a coincidence. Nor can it be principally explained to the city's generosity to a side of town it otherwise neglects. The abundance of park land on Chicago's South Side is part of a larger story in land use history across the country: the conversion of former industrial and military sites into parks.
+Next I visited the most remote points in Chicago's parks. I was surprised in a number of ways. First, by just how remote these spots are. Second, by the beauty that my simplistic measure of remoteness led me to. Third, by the fact that 5 of the 7 most remote parks are on Chicago's South Side. But that's not a coincidence. Nor can it be principally explained by the city's generosity to a side of town it otherwise neglects. The abundance of park land on Chicago's South Side is part of a larger story in land use history across the country: the conversion of former industrial and military sites into parks.
 
-For each site, I've included a panorma photo that I took at (or near) the point farthest from a road. I've also included a map with a marker for the point farthest from a road and a circle whose radius is the distance to the nearest road.
- 
 ## 7. Lincoln Park: 1,595 ft
 Lincoln park is Chicago’s largest park at 1,208 acres. There’s a lot to see, but roads criss-cross through most of it. The farthest point from a road in Lincoln Park is the Montrose Point Bird Sancturary.
 
@@ -58,7 +56,7 @@ The farthest point from a road in Chicago lies on the former site of U.S. Steel 
 {% higherground park566    -87.53085 41.74773 'https://i.imgur.com/mCg3C5H.jpg' 2614 -175 %}
 
 
-That's all for parks. But since you made it this far I'll leave you with a bonus site:
+That's all for parks. But since you made it this far I'll leave you with a bonus:
 
 
 ## Calumet Breakwater: 6,066 ft!

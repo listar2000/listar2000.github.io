@@ -9,6 +9,7 @@
 figure.higherground > figcaption {
     float: left;
     max-width: 100%;
+    margin-left: 0em;
     margin-bottom: 1em;
 }
 
