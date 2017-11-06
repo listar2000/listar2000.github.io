@@ -25,17 +25,18 @@ How remote is the Lakefront Trail? Just 608 feet, when the path goes east around
 
 Next I visited the most remote parks. I was surprised in a number of ways. First, by just how far from a road I could get within the city. Second, by the beauty that this simplistic measure of remoteness led me to. Third, by the fact that 5 of the 7 most remote parks are on the South Side. I don't think that's a coincidence. Nor do I think it can be principally explained by a generosity of City Council to a side of town it otherwise neglects. The abundance of park land on the South Side is part of a larger story in land use history across the country: the conversion of former industrial and military sites into parks.
 
-On to the list. Why seven? Because number seven on this list is number one on a different list.
+On to the list.
 
-## 7. Lincoln Park: 1,595 ft
+## 7. Powderhorn Marsh and Prairie: 1,487 ft
+> Tucked between rail yards and neighborhoods at the far southeast side of Chicago, Powderhorn Lake Forest Preserve’s 192 acres of woodland, prairie and wetland reflect the ecological richness that survives in similar pockets across the industrialized Calumet region. The lake and surrounding lands are popular among anglers, nature lovers and birders. ([FPDCC](http://fpdcc.com/powderhorn-lake/))
+{% higherground powderhorn -87.53003 41.64503 'https://i.imgur.com/FFz1iDz.jpg' 1487 32 %}
+
+
+## 6. Lincoln Park: 1,595 ft
 Lincoln park is Chicago’s largest park at 1,208 acres. There’s a lot to see, but roads criss-cross through most of it. The farthest point from a road in Lincoln Park is the Montrose Point Bird Sanctuary.
 
 > During the Cold War, Montrose point, which juts out into Lake Michigan, was used by the United States Army as a Nike missile base. The Army camouflaged their missile launchers and barracks behind honeysuckle hedges. ([Wikipedia](https://en.wikipedia.org/wiki/Lincoln_Park))
 {% higherground montrose   -87.63199 41.96656 'https://i.imgur.com/Wo9WkYc.jpg' 1595 -72 %}
-
-## 6. Powderhorn Marsh and Prairie: 1,614 ft
-> Tucked between rail yards and neighborhoods at the far southeast side of Chicago, Powderhorn Lake Forest Preserve’s 192 acres of woodland, prairie and wetland reflect the ecological richness that survives in similar pockets across the industrialized Calumet region. The lake and surrounding lands are popular among anglers, nature lovers and birders. ([FPDCC](http://fpdcc.com/powderhorn-lake/))
-{% higherground powderhorn -87.52820 41.64467 'https://i.imgur.com/FFz1iDz.jpg' 1614 32 %}
 
 ## 5. Beaubian Woods: 1,633 ft
 > Before European settlement, Beaubien Woods was a wet prairie and open savanna community. Early agriculture and grazing altered the soil and removed native vegetation. Railroad and expressway construction further damaged soils and cleared areas for use in construction staging. ([FPDCC](http://fpdcc.com/beaubien-woods/))
