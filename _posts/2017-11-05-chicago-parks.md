@@ -17,7 +17,7 @@ custom_css:
 Stretching over 18 miles from Edgewater to South Shore, Chicago’s Lakefront Trail might be the city’s most iconic park. But the term "trail" is absurd. For most of its length, this paved path runs adjacent to a four lane highway!
 <!--more-->
 
-That observation led me to think about the points in Chicago that are farthest from a road. I wrote a [computer program](https://github.com/potash/higher-ground) to calculate the (Euclidean) distance to the nearest road at every point in Chicago. Then I defined the "remoteness" of a park to be the farthest I could within that park from a road.
+That observation led me to think about the points in Chicago that are farthest from a road. I wrote a [computer program](https://github.com/potash/higher-ground) to calculate the (Euclidean) distance to the nearest road at every point in Chicago. Then I defined the "remoteness" of a park to be the farthest I could within from a road within that park.
 
 How remote is the Lakefront Trail? Just 608 feet, when the path goes east around Museum Campus:
 {% higherground lakefront  -87.61536 41.86810 'https://i.imgur.com/9tiJATm.jpg' 608 0 "Above, an interactive panorama that I shot at the point farthest from a road on the Lakefront Trail. Below, a map with a marker at the point and a circle with radius equal to the distance to the nearest road, so that the circle contains no roads." %}
