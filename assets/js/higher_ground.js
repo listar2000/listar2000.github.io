@@ -31,13 +31,12 @@ function higher_ground(args) {
     viewers[name] = pannellum.viewer(name + '-panorama', {
         "type": "equirectangular",
         "panorama": imageUrl,
-        "preview": imageUrl,
         "yaw": yaw,
         "vaov": 54.15,
         "hfov": calculateHfov(width),
         "minPitch":-25,
         "maxPitch":25,
-        "autoLoad":false
+        "autoLoad":true
     });
 
     var mymap = L.map(name + '-map').setView([lat, lng], 13);
