@@ -14,13 +14,13 @@ custom_css:
  - leaflet
  - higher_ground
 ---
-Stretching over 18 miles from Edgewater to South Shore, Chicago’s lakefront trail is perhaps the city’s most iconic park. But the term "trail" is absurd. For most of its length, this paved path runs adjacent to a four lane highway!
+Stretching over 18 miles from Edgewater to South Shore, Chicago’s Lakefront Trail is perhaps the city’s most iconic park. But the term "trail" is absurd. For most of its length, this paved path runs adjacent to a four lane highway!
 <!--more-->
 
 That observation led me to think about the points in Chicago that are farthest from a road. I wrote a [computer program](https://github.com/potash/higher-ground) to calculate the (Euclidean) distance to the nearest road at every point in Chicago. Then I defined the "remoteness" of a park to be the farthest I could within that park from a road.
 
-How remote is the Lakefront trail? Just 608 feet, when the path goes east around Museum Campus:
-{% higherground lakefront  -87.61536 41.86810 'https://i.imgur.com/9tiJATm.jpg' 608 0 "Above, an interactive panorama that I shot at the point farthest from a road on the Lakefront trail. Below, a map with a marker at the point and a circle with radius equal to the distance to the nearest road, so that the circle contains no roads." %}
+How remote is the Lakefront Trail? Just 608 feet, when the path goes east around Museum Campus:
+{% higherground lakefront  -87.61536 41.86810 'https://i.imgur.com/9tiJATm.jpg' 608 0 "Above, an interactive panorama that I shot at the point farthest from a road on the Lakefront Trail. Below, a map with a marker at the point and a circle with radius equal to the distance to the nearest road, so that the circle contains no roads." %}
 <br/>
 
 Next I visited the most remote parks. I was surprised in a number of ways. First, by just how far from a road I could get within the city. Second, by the beauty that this simplistic measure of remoteness led me to. Third, by the fact that 5 of the 7 most remote parks are on the South Side. I don't think that's a coincidence. Nor do I think it can be principally explained by a generosity of City Council to a side of town it otherwise neglects. The abundance of park land on the South Side is part of a larger story in land use history across the country: the conversion of former industrial and military sites into parks.
