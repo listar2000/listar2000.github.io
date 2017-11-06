@@ -4,6 +4,7 @@ title:  "The 7 Most Remote Chicago Parks"
 date:   2017-11-05
 title_include: true
 categories:
+image_url: "https://i.imgur.com/pskOvVm.jpg"
 custom_js: 
  - pannellum
  - leaflet

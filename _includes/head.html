@@ -41,4 +41,8 @@
   <script src='/assets/js/{{ js_file }}.js' type="text/javascript"></script>
   {% endfor %}
   {% endif %}
+
+  {% if page.image_url %}
+  <meta content="{{ page.image_url }}" property="og:image">
+  {% endif %}
 </head>
