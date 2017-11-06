@@ -33,7 +33,7 @@ On to the list.
 
 
 ## 6. Lincoln Park: 1,595 ft
-Lincoln park is Chicago’s largest park at 1,208 acres. There’s a lot to see, but roads criss-cross through most of it. The farthest point from a road in Lincoln Park is the Montrose Point Bird Sanctuary.
+Lincoln Park is Chicago’s largest park at 1,208 acres. There’s a lot to see, but roads criss-cross through most of it. The farthest point from a road in Lincoln Park is the Montrose Point Bird Sanctuary.
 
 > During the Cold War, Montrose point, which juts out into Lake Michigan, was used by the United States Army as a Nike missile base. The Army camouflaged their missile launchers and barracks behind honeysuckle hedges. ([Wikipedia](https://en.wikipedia.org/wiki/Lincoln_Park))
 {% higherground montrose   -87.63199 41.96656 'https://i.imgur.com/Wo9WkYc.jpg' 1595 -72 %}
