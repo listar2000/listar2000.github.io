@@ -42,7 +42,7 @@ weight: 2
 ## Miscellaneous
 
 {% newthought 'Higher Ground' %}
-<small>[[GitHub](https://github.com/potash/higher-ground)][[blog](articles/17/chicago-parks)]</small>
+<small>[[GitHub](https://github.com/potash/higher-ground)][[blog](articles/17/chicago-parks)][[CBS](http://chicago.cbslocal.com/2017/11/06/park-566-master-plan/)]</small>
 <br/>This work-in-progress uses OpenStreetMap data to analyze and visualize urban greenspace.
 
 {% newthought 'Visible Hand' %}
