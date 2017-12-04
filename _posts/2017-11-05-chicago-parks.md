@@ -14,7 +14,7 @@ custom_css:
  - leaflet
  - higher_ground
 ---
-Stretching over 18 miles from Edgewater to South Shore, Chicago’s Lakefront Trail might be the city’s most iconic park. But the term "trail" is absurd. For most of its length, this paved path runs adjacent to a four lane highway!
+Stretching over 18 miles from Edgewater to South Shore, Chicago’s Lakefront Trail might be the city’s most iconic park. But the term "trail" is absurd. For most of its length, this paved path runs adjacent to a six-lane highway!
 <!--more-->
 
 That observation led me to think about the points in Chicago that are farthest from a road. I wrote a [computer program](https://github.com/potash/higher-ground) to calculate the (Euclidean) distance to the nearest road at every point in Chicago. Then I defined the "remoteness" of a park to be the farthest I could from a road within that park.
