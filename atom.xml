@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-07T13:49:55.165Z</updated>
+  <updated>2018-04-07T13:55:35.789Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +21,16 @@
     <link href="http://yoursite.com/2018/04/07/My-First-Blog-Post/"/>
     <id>http://yoursite.com/2018/04/07/My-First-Blog-Post/</id>
     <published>2018-04-07T13:19:27.000Z</published>
-    <updated>2018-04-07T13:49:55.165Z</updated>
+    <updated>2018-04-07T13:55:35.789Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>大家好！！！</p></blockquote><p>很早之前就想开一个自己的博客来写一些编程/学习/日常的东西。<br>首先考虑了用[CSDN][1]/[简书][2]等平台。然而一想：这也太不Geek了吧。。所以在CSDN上写了几篇sb Java技术文章之后就没有继续了。。</p><p>&lt;font 之后由于学了一些Java Web的技术，就想要自己从前端到后端写一个博客出来（无非就是 <code>JSP + Servlet + MySQL + JavaBean</code> 这一套，连框架都没用）。结果发现自己前端水平实在底下，然后 <code>Java Web</code> 的部署真的是捉急。所以也放弃了。</p><p>最后所以还是选择Hexo这样的博客框架，然后配合Github的免费域名凑合来建博客。<strong>Markdown</strong>现在用的也不好，唉，就这样咯。</p><blockquote><p>接下来会发布一些技术文章吧。。。或许。。。可能吧</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p><strong>大家好！！！</strong></p><p>很早之前就想开一个自己的博客来写一些编程/学习/日常的东西。<br>首先考虑了用[CSDN][1]/[简书][2]等平台。然而一想：这也太不Geek了吧。。所以在CSDN上写了几篇sb Java技术文章之后就没有继续了。。</p><p>之后由于学了一些Java Web的技术，就想要自己从前端到后端写一个博客出来（无非就是 <code>JSP + Servlet + MySQL + JavaBean</code> 这一套，连框架都没用）。结果发现自己前端水平实在底下，然后 <code>Java Web</code> 的部署真的是捉急。所以也放弃了。</p><p>最后所以还是选择Hexo这样的博客框架，然后配合Github的免费域名凑合来建博客。<strong>Markdown</strong>现在用的也不好，唉，就这样咯。</p><p><strong>接下来会发布一些技术文章吧。。。或许。。。可能吧</strong></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;blockquote&gt;
-&lt;p&gt;大家好！！！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;很早之前就想开一个自己的博客来写一些编程/学习/日常的东西。&lt;br&gt;首先考虑了用[CSDN][1]/[简书][2]等平台。然而一想：这也太不Geek了吧。。所以在CSDN上写了几篇sb Jav
+        &lt;p&gt;&lt;strong&gt;大家好！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;很早之前就想开一个自己的博客来写一些编程/学习/日常的东西。&lt;br&gt;首先考虑了用[CSDN][1]/[简书][2]等平台。然而一想：这也太不Geek了吧。。所以在CSDN上写了几篇sb Java技术文章之后就没有
       
     
     </summary>
