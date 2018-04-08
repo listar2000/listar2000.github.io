@@ -5,20 +5,21 @@
   
 
   
-  <title>Listar2000&#39;s Blog</title>
+  <title>AP CS复习（1）- String类及其API | Listar2000&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="AP CS复习（1）- String类及其API标签（空格分隔）： Java APComputerScience    很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习AP CS的文章，所以就准备自己写一个。仔细想想，很多人会觉得AP CS很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。第一篇文章就从 J">
+  <meta name="description" content="AP CS复习（1）- String类及其API  很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习AP CS的文章，所以就准备自己写一个。仔细想想，很多人会觉得AP CS很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。第一篇文章就从 Java.lang.String 这个概念讲起，大致概括AP的一些考点">
+<meta name="keywords" content="Java APComputerScience">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Listar2000&#39;s Blog">
+<meta property="og:title" content="AP CS复习（1）- String类及其API">
 <meta property="og:url" content="http://yoursite.com/2018/04/08/AP CS复习（1）- String类及其API/index.html">
 <meta property="og:site_name" content="Listar2000&#39;s Blog">
-<meta property="og:description" content="AP CS复习（1）- String类及其API标签（空格分隔）： Java APComputerScience    很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习AP CS的文章，所以就准备自己写一个。仔细想想，很多人会觉得AP CS很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。第一篇文章就从 J">
+<meta property="og:description" content="AP CS复习（1）- String类及其API  很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习AP CS的文章，所以就准备自己写一个。仔细想想，很多人会觉得AP CS很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。第一篇文章就从 Java.lang.String 这个概念讲起，大致概括AP的一些考点">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/String_01.png">
-<meta property="og:updated_time" content="2018-04-08T15:52:43.090Z">
+<meta property="og:updated_time" content="2018-04-08T15:56:46.337Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Listar2000&#39;s Blog">
-<meta name="twitter:description" content="AP CS复习（1）- String类及其API标签（空格分隔）： Java APComputerScience    很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习AP CS的文章，所以就准备自己写一个。仔细想想，很多人会觉得AP CS很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。第一篇文章就从 J">
+<meta name="twitter:title" content="AP CS复习（1）- String类及其API">
+<meta name="twitter:description" content="AP CS复习（1）- String类及其API  很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习AP CS的文章，所以就准备自己写一个。仔细想想，很多人会觉得AP CS很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。第一篇文章就从 Java.lang.String 这个概念讲起，大致概括AP的一些考点">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/String_01.png">
   
     <link rel="alternate" href="/atom.xml" title="Listar2000&#39;s Blog" type="application/atom+xml">
@@ -73,17 +74,26 @@
         <section id="main"><article id="post-AP CS复习（1）- String类及其API" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/04/08/AP CS复习（1）- String类及其API/" class="article-date">
-  <time datetime="2018-04-08T15:52:19.381Z" itemprop="datePublished">2018-04-08</time>
+  <time datetime="2018-04-08T15:49:38.000Z" itemprop="datePublished">2018-04-08</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      AP CS复习（1）- String类及其API
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="AP-CS复习（1）-String类及其API"><a href="#AP-CS复习（1）-String类及其API" class="headerlink" title="AP CS复习（1）- String类及其API"></a>AP CS复习（1）- String类及其API</h1><p>标签（空格分隔）： Java APComputerScience </p>
-<hr>
+        <h1 id="AP-CS复习（1）-String类及其API"><a href="#AP-CS复习（1）-String类及其API" class="headerlink" title="AP CS复习（1）- String类及其API"></a>AP CS复习（1）- String类及其API</h1><hr>
 <blockquote>
 <p>很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习<font color="red">AP CS</font>的文章，所以就准备自己写一个。仔细想想，很多人会觉得<font color="red">AP CS</font>很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。<br><strong>第一篇文章就从 <code>Java.lang.String</code> 这个概念讲起，大致概括AP的一些考点和一些额外的概念。</strong></p>
 </blockquote>
@@ -154,9 +164,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/08/AP CS复习（1）- String类及其API/" data-id="cjfqzm6jh0004fow7ihg1zcaq" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/04/08/AP CS复习（1）- String类及其API/" data-id="cjfqzquoj0000cww7iz8wabgz" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-APComputerScience/">Java APComputerScience</a></li></ul>
+
     </footer>
   </div>
   
@@ -185,7 +197,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java-APComputerScience/">Java APComputerScience</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
     </div>
   </div>
 
@@ -195,7 +207,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+      <a href="/tags/Java-APComputerScience/" style="font-size: 10px;">Java APComputerScience</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
     </div>
   </div>
 
@@ -217,7 +229,7 @@
       <ul>
         
           <li>
-            <a href="/2018/04/08/AP CS复习（1）- String类及其API/">(no title)</a>
+            <a href="/2018/04/08/AP CS复习（1）- String类及其API/">AP CS复习（1）- String类及其API</a>
           </li>
         
           <li>
