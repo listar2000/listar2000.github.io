@@ -66,6 +66,49 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-AP-CS复习（2）-Math和Random基础" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/04/10/AP-CS复习（2）-Math和Random基础/" class="article-date">
+  <time datetime="2018-04-10T14:10:05.000Z" itemprop="datePublished">2018-04-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/10/AP-CS复习（2）-Math和Random基础/">AP CS复习（2）- Math和Random基础</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>本来就不是什么高产的人，但是由于AP里面会有一些琐碎的小点，所以干脆简洁的介绍一下。今天讲的就是 <code>java.lang.math</code> 和 <code>java.util.Random</code> 这两个小点。这些方法大家应该都大致懂得使用，<strong>所以过一遍就好了</strong>。</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/04/10/AP-CS复习（2）-Math和Random基础/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/04/10/AP-CS复习（2）-Math和Random基础/" data-id="cjftquwmf0001k4w7zeypev9i" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-APComputerScience/">Java APComputerScience</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-AP CS复习（1）- String类及其API" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/04/08/AP CS复习（1）- String类及其API/" class="article-date">
@@ -91,71 +134,15 @@
         <hr>
 <p>很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习<font color="red">AP CS</font>的文章，所以就准备自己写一个。仔细想想，很多人会觉得<font color="red">AP CS</font>很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。<br><strong>第一篇文章就从 <code>Java.lang.String</code> 这个概念讲起，大致概括AP的一些考点和一些额外的概念。</strong></p>
 <h2 id="I-AP考什么"><a href="#I-AP考什么" class="headerlink" title="I: AP考什么?"></a><font color="green">I: AP考什么?</font></h2><p>先上一张图<em>（来自<a href="http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-a-course-description.pdf" target="_blank" rel="noopener">CB Course Description</a>）</em></p>
-<p><img src="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/String_01.png" alt="CB对于String类的要求"></p>
-<p>可以看出，AP CS考试中对于String类的要求非常之低，除了通用的懂得如何实例化一个字符串之外，仅需要掌握5（其实是4）种方法就可以舒服的当一个api-caller了。<br>然而，除了懂怎么用之外，<strong>什么时候用</strong>则成为了一个更重要的问题。所以我们还是一个个方法逐一了解一下。</p>
-<p></p><h3><font color="red">int length()</font></h3><br>不用多说，这个最简单的方法返回该字符串的长度。而这个方法常用于for循环中来遍历字符串中的字符。<p></p>
-<p><strong>举例：</strong></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//打印出字符串"banana"中'a'字符的个数</span></span><br><span class="line">String str = <span class="string">"banana"</span>;</span><br><span class="line"><span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; str.length(); i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (str.charAt(i) == <span class="string">'a'</span>) &#123;</span><br><span class="line">        count++;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出为3</span></span><br><span class="line">System.out.println(count);</span><br></pre></td></tr></table></figure>
-<p>当然，这里可耻的使用了一个 <code>String.charAt(int index)</code> 的方法，但是不影响理解就好了。关于 <code>length()</code> 能讲的实在不多，毕竟它太基础了。</p>
-<p><strong>稍微深入一点的话</strong>，不难发现String这个类其实是由一个char[]构成的。也就是说，一个”pig”这样的字符串本质上由’p’,’i’,’g’拼接而成。了解这一点，就不难发现String类有这样一个构造方法：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span>[] arr = &#123;<span class="string">'d'</span>,<span class="string">'o'</span>,<span class="string">'g'</span>&#125;;</span><br><span class="line"><span class="comment">//传入一个char[]作为参数</span></span><br><span class="line">String str = <span class="keyword">new</span> String(arr);</span><br><span class="line"><span class="comment">//输出"dog"</span></span><br><span class="line">System.out.println(str);</span><br></pre></td></tr></table></figure></p>
-<p>那么可想而知，<code>length()</code> 的底层实现也非常简单，就是返回char[]的length就可以了:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//String类中的实现</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">length</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> value.length;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>###<font color="red">substring(int from, int to)</font>###<br>下一个方法就是大名鼎鼎的 <code>substring</code> 方法。这个方法返回字符串中的一个子字符串，其上界和下界由参数中的from和to控制。为什么说这个方法很牛逼呢，其实是因为各种你想得到的方法都可以由 <code>substring</code> 方法得到。<br><strong>但在这之前，有两点需要注意！</strong></p>
-<blockquote>
-<p>对于给定的参数from和to，返回的子字符串是从 <code>charAt(from)</code> 开始到 <code>charAt(to-1)</code> 为止。换句话说，返回的子字符串的长度应该等于<code>to - from</code>,这样记就不会弄错啦！</p>
-</blockquote>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">String test = <span class="string">"watermelon"</span>;</span><br><span class="line"><span class="comment">//0对应test中的'w'字符，而4却对应的是index为（4-1=3）的'e'字符。</span></span><br><span class="line"><span class="comment">//输出结果为"wate"</span></span><br><span class="line">System.out.println(test.substring(<span class="number">0</span>, <span class="number">4</span>));</span><br></pre></td></tr></table></figure>
-<p>可想而知，这个方法常常用于截取字符串上，许多的AP FRQ问题都会考到。<br>但是，这里substring方法的用处可不止如此，我们可以通过操纵参数达到意想不到的效果。</p>
-<p><strong>I：获取字符串的最后一个字符</strong><br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">String test = <span class="string">"hello"</span>;</span><br><span class="line"><span class="comment">//结果为o</span></span><br><span class="line">String lastChar = test.substring(test.length()-<span class="number">1</span>, test.length());</span><br><span class="line"><span class="comment">//上面也可以简写成（运用后面会讲的substring(int from)）</span></span><br><span class="line"><span class="comment">//String lastChar = test.substring(test.length()-1);</span></span><br></pre></td></tr></table></figure></p>
-<p><strong>II: 究极脑经急转弯：如何不用遍历判断一个字符串是否由单一字符组成？</strong></p>
-<p>直接上代码，这个能不能理解都无所谓，只是真的让人感叹substring的强大。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">consistOfSameChar</span><span class="params">(String str)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//假设传入的str为"banana"</span></span><br><span class="line">    <span class="comment">//first = "banan" （除了最后一个字符）</span></span><br><span class="line">    String first = str.substring(<span class="number">0</span>, str.length-<span class="number">1</span>);</span><br><span class="line">    <span class="comment">//last = "anana" （除了第一个字符）</span></span><br><span class="line">    String last = str.substring(<span class="number">1</span>, str.length());</span><br><span class="line">    <span class="comment">//判断他们是否相等即可判断该字符串是否由同一字符组成</span></span><br><span class="line">    <span class="keyword">return</span> first.equals(last);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>最后，简单提一下 <code>substring(int from)</code> 这个方法，作为前一个方法的重写，这个方法更加的方便，直接返回从给定的index from到字符串末尾的子字符串。本质上:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x.substring(<span class="keyword">int</span> from) 和 x.substring(<span class="keyword">int</span> from, x.length()) 相同</span><br></pre></td></tr></table></figure></p>
-<p></p><h3><font color="red">int indexOf()</font></h3><br><strong>又是一个强大的方法！</strong>！<br>本质上idnexOf方法在String类中被复写了4遍。但操蛋又温柔的CB爸爸只要求考其中的一种，即参数为String的那种。<p></p>
-<blockquote>
-<font color="blue">Talk is cheap, show me the code – Linus</font>
-</blockquote>
-<p>我们废话少说，直接上一个清晰易懂的实例：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//被匹配的字符串</span></span><br><span class="line">String test = <span class="string">"listar2000"</span>;</span><br><span class="line"><span class="comment">//想要查找的值</span></span><br><span class="line">String match1 = <span class="string">"star"</span>;</span><br><span class="line"><span class="comment">//得出位置1</span></span><br><span class="line"><span class="keyword">int</span> position1 = test.indexOf(match1);</span><br><span class="line"><span class="comment">//输出结果为2，也就是说，首先listar2000中包含star这个子字符串，同时star中的第一个字符s在listar2000中的位置为2，所以返回一个int值=2。</span></span><br><span class="line">System.out.println(position);</span><br><span class="line"><span class="comment">//下面我们再看另一种情况</span></span><br><span class="line">String match2 = <span class="string">"michael"</span>;</span><br><span class="line"><span class="comment">//欸，明明listar2000里面不包含michael啊，怎么办呢?</span></span><br><span class="line"><span class="keyword">int</span> position2 = test.indexOf(match2);</span><br><span class="line"><span class="comment">//int值在字符串中不包含的情况下返回-1</span></span><br><span class="line">System.out.println(position2);</span><br></pre></td></tr></table></figure></p>
-<p>言简意赅，雷厉风行。如果有，返回子字符串的起始位置；如果没有，返回-1。清晰明了。这样也可以看出，indexOf这个方法可以用来做匹配，查询字符串中是否包含某个段落。下面是最近CS Project里面的一段真实代码。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//判断字符串中是否含有某个子字符串</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">hasSubstring</span><span class="params">(String str, String match)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (str.indexOf(match)&gt;=<span class="number">0</span>) <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>当然，其实String类的API中早就已经预设好类似 <code>contains</code> 这样的方法直接返回一个boolean告诉你字符串是否包含。但是灵活掌握一种方法同时融会贯通的能力也是非常重要的。另一方面，这里也想着重强调官方文档的重要性，多看文档，会发现很多方法早就预设在jdk里面，<strong>不需要像我刚刚一样重复造轮子</strong>，非常麻烦! <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html" target="_blank" rel="noopener">传送门</a></p>
-<p></p><h3><font color="red">int compareTo()</font></h3><br>最后一个方法稍微有点复杂，所以我们从其源码的implementation角度来理解这个方法的具体功能。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">compareTo</span><span class="params">(String anotherString)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//得到自身和同自身比较的字符串的长度</span></span><br><span class="line">    <span class="keyword">int</span> len1 = value.length;</span><br><span class="line">    <span class="keyword">int</span> len2 = anotherString.value.length;</span><br><span class="line">    <span class="comment">//得到两字符串较短的长度的值，如一个长为5，一个为3，则取3。</span></span><br><span class="line">    <span class="keyword">int</span> lim = Math.min(len1, len2);</span><br><span class="line">    <span class="comment">//得到两字符串分别的char[]，刚刚提过这是内置在String类中的成员变量</span></span><br><span class="line">    <span class="keyword">char</span> v1[] = value;</span><br><span class="line">    <span class="keyword">char</span> v2[] = anotherString.value;</span><br><span class="line">    <span class="comment">//下面开始注意!!</span></span><br><span class="line">    <span class="comment">//从两个字符串的第一个字符开始遍历，到刚刚得到的最短长度为止</span></span><br><span class="line">    <span class="comment">//将每一个index的字符进行比较，如果不相同则返回c1 - c2的差</span></span><br><span class="line">    <span class="comment">//注意，java中char类型的差为ASC-II码表上对应的值。比如A的值为65，a     的值却是97，那么'a'-'A'就等于32.</span></span><br><span class="line">    <span class="keyword">int</span> k = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (k &lt; lim) &#123;</span><br><span class="line">        <span class="keyword">char</span> c1 = v1[k];</span><br><span class="line">        <span class="keyword">char</span> c2 = v2[k];</span><br><span class="line">        <span class="keyword">if</span> (c1 != c2) &#123;</span><br><span class="line">            <span class="keyword">return</span> c1 - c2;</span><br><span class="line">        &#125;</span><br><span class="line">        k++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//如果在0到lim范围内两字符串的字符都相同，那么返回的int值不再是ASC-II码表编号的差距，而是直接两字符串长度的差！！</span></span><br><span class="line">    <span class="keyword">return</span> len1 - len2;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p></p>
-<p>会发现十分操蛋的一点是，compareTo返回的int值，根据比较的两个字符串的不同，返回时的判定方式也不一样。<strong>要着重记住的点就是，java中char类型比较的是其ASC-II码表的编号差！！</strong></p>
-<p><strong><font color="red">算了，看完了底层实现，我们看一下实例来说明问题吧！</font></strong></p>
-<p><strong>例子1：</strong><br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">String a = <span class="string">"applegood"</span>;</span><br><span class="line">String b = <span class="string">"Apple"</span>;</span><br><span class="line">System.out.println(a.compareTo(b));</span><br><span class="line"><span class="comment">//输出为32</span></span><br></pre></td></tr></table></figure></p>
-<ol>
-<li>执行compareTo方法</li>
-<li>从第一个字符开始遍历，找不同。</li>
-<li>发现第一个字符’a’和’A’就不一样</li>
-<li>根据ASC-II码表，分别找出a（97）和A（65）的编号。</li>
-<li>返回97-65=32.</li>
-</ol>
-<p><strong>例子2：</strong><br>这次只改变了一个字符的大小写，结果截然不同啊！<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">String a = <span class="string">"applegood"</span>;</span><br><span class="line">String b = <span class="string">"apple"</span>;</span><br><span class="line">System.out.println(a.compareTo(b));</span><br><span class="line"><span class="comment">//输出为4</span></span><br></pre></td></tr></table></figure></p>
-<ol>
-<li>执行compareTo方法</li>
-<li>从第一个字符开始遍历，找不同。</li>
-<li>发现找到apple的末尾，也就是index=4还是一样！</li>
-<li>不干了，直接返回两个字符串长度差，也就是4</li>
-</ol>
-<p><b><font color="red">这到底是什么JB玩意？!</font></b><br><b><font color="red">Java就这样implement的？？？</font></b></p>
-<blockquote>
-<font color="blue">PHP is the best programming language in the world!!<br>Life is short, I use Python!!</font>
-</blockquote>
-<p>好吧说了这么多，反正AP也不会考这么深。但是着<strong>再一次的证明了阅读源码的重要性啊</strong>！！！不然鬼知道这个int返回值是什么东西。只要记住当 <code>compareTo</code> 返回的是0时，那么这两个字符串就是相等了。不过话说用equals不是更好么。。。</p>
-<p></p><h3><font color="red">Beyond AP：来看看String类的魔性设定</font></h3><br>首先我们看一下String这个类中源码的定义：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="class"><span class="keyword">class</span> <span class="title">String</span></span></span><br><span class="line"><span class="class">    <span class="keyword">implements</span> <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span>, <span class="title">Comparable</span>&lt;<span class="title">String</span>&gt;, <span class="title">CharSequence</span> </span>&#123;&#125;</span><br></pre></td></tr></table></figure><p></p>
-<p>抛开implements的那一大串接口不谈，你会发现一个恐怖的字眼 <code>final class</code><br>更恐怖的是，<strong>作为String根本的成员变量char[]（之前提过），也是final修饰的。</strong>这也意味着，String这个对象本身其实是不可改变的。</p>
-<p>有人马上会说，胡说八道！字符串的拼接是怎么实现的？<br>例如：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String test = <span class="string">"star"</span>;</span><br><span class="line">test = test + <span class="string">"is handsome"</span>;</span><br></pre></td></tr></table></figure></p>
-<p><strong>这不是改变了吗？</strong><br>但其实，在我们每一次的进行字符串拼接的时候，其实Java底层都是创建了一个新的String对象来承载新的字符串。不信，可以用hashcode()方法测验一下(一般我们认为hashcode相同的两个object指向内存中的同一对象)。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">String test = <span class="string">"star"</span>;</span><br><span class="line"><span class="comment">//3540562</span></span><br><span class="line">System.out.println(test.hashCode());</span><br><span class="line">test = test + <span class="string">"is handsome"</span>;</span><br><span class="line"><span class="comment">//-632481145</span></span><br><span class="line">System.out.println(test.hashCode());</span><br></pre></td></tr></table></figure></p>
-<p>很明显的，对象改变了。事实上，针对String的hashcode有一个特殊的算法，保证内容相同的字符串拥有相同的hashcode。我们使用拼接改变字符串，自然让hashcode同样有了变化。<br><b><font color="blue">这就带来了一个问题!!</font></b><br>当我们的程序需要频繁的拼接字符串的时候，性能会由于频繁的new对象受到影响。而在Java这一成熟的语言中，要解决这个问题也是非常简单的。既然String是一个不可变的类，那么就用辅助的可变类来帮助进行频繁的拼接操作。如：StringBuffer和StringBuilder。</p>
-<p>下面直接上一篇<a href="https://www.cnblogs.com/Faith-zhang/p/6374834.html" target="_blank" rel="noopener">其他人博客</a>的实验结果：</p>
-<blockquote>
-<p>用String+=拼接字符串的时间27468<br>用String=String+拼接字符串的时间25813<br>用String.concat拼接字符串的时间12265<br>用StringBuffer.append拼接字符串的时间14<br>用StringBuilder.append拼接字符串的时间8 </p>
-</blockquote>
-<p>效果立杆见影，可想而知了吧。。。<br>具体的使用方法这里不多谈，希望大家可以查阅官方文档来获取资讯。</p>
-<hr>
-<p></p><h2><font color="blue">最后</font></h2><br>第一篇博文是有点试试水的心态写的，如有疏漏请多原谅。本文借鉴了少数他人博客和大量官方文档，但最多的还是自己开着IDE进行测试。这里也鼓励各位多多肝码，自己尝试。<br>AP不到一个月了，作为Senior我觉得有时间可以写一下这方面的博客来帮助大家复习。同时，自己的Hexo博客刚开所以没有怎么设置，目前应该是没有留言功能的。所以大家想了解AP CS中的哪方面知识可以微信找我。就这样了！！<p></p>
-
+        
+          <p class="article-more-link">
+            <a href="/2018/04/08/AP CS复习（1）- String类及其API/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/08/AP CS复习（1）- String类及其API/" data-id="cjfs1qpek00018kw796hpbpzh" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/04/08/AP CS复习（1）- String类及其API/" data-id="cjftquwm90000k4w7b1k7uj7z" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-APComputerScience/">Java APComputerScience</a></li></ul>
@@ -190,8 +177,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><strong>大家好！！！</strong></p>
-<p>很早之前就想开一个自己的博客来写一些编程/学习/日常的东西。
-首先考虑了用[CSDN][1]/[简书][2]等平台。然而一想：这也太不Geek了吧。。所以在CSDN上写了几篇sb Java技术文章之后就没有继续了。。</p>
+<p>很早之前就想开一个自己的博客来写一些编程/学习/日常的东西。<br>首先考虑了用[CSDN][1]/[简书][2]等平台。然而一想：这也太不Geek了吧。。所以在CSDN上写了几篇sb Java技术文章之后就没有继续了。。</p>
 <p>之后由于学了一些Java Web的技术，就想要自己从前端到后端写一个博客出来（无非就是 <code>JSP + Servlet + MySQL + JavaBean</code> 这一套，连框架都没用）。结果发现自己前端水平实在底下，然后 <code>Java Web</code> 的部署真的是捉急。所以也放弃了。</p>
 <p>最后所以还是选择Hexo这样的博客框架，然后配合Github的免费域名凑合来建博客。<strong>Markdown</strong>现在用的也不好，唉，就这样咯。</p>
 <p><strong>接下来会发布一些技术文章吧。。。或许。。。可能吧</strong></p>
@@ -199,7 +185,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/07/My-First-Blog-Post/" data-id="cjfs1qpen00028kw75n2jl3s3" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/04/07/My-First-Blog-Post/" data-id="cjftquwn80007k4w7wf462fzk" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
@@ -234,24 +220,19 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2>Quick Start</h2>
-<h3>Create a new post</h3>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3>Run server</h3>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3>Generate static files</h3>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3>Deploy to remote sites</h3>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/07/hello-world/" data-id="cjfs1qpef00008kw75shjnwns" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/04/07/hello-world/" data-id="cjftquwmj0003k4w7ue300q74" class="article-share-link">Share</a>
       
       
     </footer>
@@ -284,7 +265,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Java-APComputerScience/" style="font-size: 10px;">Java APComputerScience</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+      <a href="/tags/Java-APComputerScience/" style="font-size: 20px;">Java APComputerScience</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
     </div>
   </div>
 
@@ -304,6 +285,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2018/04/10/AP-CS复习（2）-Math和Random基础/">AP CS复习（2）- Math和Random基础</a>
+          </li>
         
           <li>
             <a href="/2018/04/08/AP CS复习（1）- String类及其API/">AP CS复习（1）- String类及其API</a>
