@@ -5,15 +5,20 @@
   
 
   
-  <title>listar2000&#39;s Blog</title>
+  <title>AP最后复习-Several Sorting Methods in A Glance | listar2000&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="listar2000&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="时间不多，下午就要考试了，基础的知识相信大家已经有掌握，那么最后可以临时抱佛脚的就是比较关键的 排序方法 了。下面给出AP最常考到的三种排序方法的代码实现，大家可以在看的同时想一想这三种方法的实现原理以及机制。 PS：代码实现是我昨晚默写一次过出来的。在保证实习机制核心原理不改变的情况下，代码的优化其实非常不足（比如一个值被 computed 多次而不是存储为变量）。所以看看排序就好。  I: 选">
+<meta name="keywords" content="Java APComputerScience">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AP最后复习-Several Sorting Methods in A Glance">
+<meta property="og:url" content="http://yoursite.com/2018/05/15/AP最后复习-Several-Sorting-Methods-in-A-Glance/index.html">
 <meta property="og:site_name" content="listar2000&#39;s Blog">
+<meta property="og:description" content="时间不多，下午就要考试了，基础的知识相信大家已经有掌握，那么最后可以临时抱佛脚的就是比较关键的 排序方法 了。下面给出AP最常考到的三种排序方法的代码实现，大家可以在看的同时想一想这三种方法的实现原理以及机制。 PS：代码实现是我昨晚默写一次过出来的。在保证实习机制核心原理不改变的情况下，代码的优化其实非常不足（比如一个值被 computed 多次而不是存储为变量）。所以看看排序就好。  I: 选">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-05-15T02:52:51.671Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="listar2000&#39;s Blog">
+<meta name="twitter:title" content="AP最后复习-Several Sorting Methods in A Glance">
+<meta name="twitter:description" content="时间不多，下午就要考试了，基础的知识相信大家已经有掌握，那么最后可以临时抱佛脚的就是比较关键的 排序方法 了。下面给出AP最常考到的三种排序方法的代码实现，大家可以在看的同时想一想这三种方法的实现原理以及机制。 PS：代码实现是我昨晚默写一次过出来的。在保证实习机制核心原理不改变的情况下，代码的优化其实非常不足（比如一个值被 computed 多次而不是存储为变量）。所以看看排序就好。  I: 选">
   
     <link rel="alternate" href="/atom.xml" title="listar2000&#39;s Blog" type="application/atom+xml">
   
@@ -66,9 +71,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-AP最后复习-Several-Sorting-Methods-in-A-Glance" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-AP最后复习-Several-Sorting-Methods-in-A-Glance" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/05/15/AP最后复习-Several-Sorting-Methods-in-A-Glance/" class="article-date">
   <time datetime="2018-05-15T02:51:35.000Z" itemprop="datePublished">2018-05-15</time>
@@ -81,8 +84,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/15/AP最后复习-Several-Sorting-Methods-in-A-Glance/">AP最后复习-Several Sorting Methods in A Glance</a>
+    <h1 class="article-title" itemprop="name">
+      AP最后复习-Several Sorting Methods in A Glance
     </h1>
   
 
@@ -109,275 +112,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-java复习3" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/26/java复习3/" class="article-date">
-  <time datetime="2018-04-26T00:12:46.000Z" itemprop="datePublished">2018-04-26</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/26/java复习3/">AP CS复习（3）- 浅谈Java中的参数传递</a>
-    </h1>
+    <a href="/2018/04/26/java复习3/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">AP CS复习（3）- 浅谈Java中的参数传递</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>之前的 <code>ArrayList</code> 我已经做了一个视频放在了B站上面，其中完整提到了如何自己使用数组和泛型等技巧实现一个动态数组。<a href="https://www.bilibili.com/video/av22363824" target="_blank" rel="noopener">链接在这里，就不额外写博客了。</a></p>
-<p>所以这篇博客讲的内容并不会是具体的一个类库，而是Java语言层面的有趣设定–<font color="red">参数传递的方法。</font>不同的编程语言在一些设定，比如 <code>GC</code>，<code>动/静态类型</code> , <code>传参方式</code> 上都有所不同。而掌握这些细节无论是对于程序的优化或是AP考试都有巨大的帮助。<br>
-        
-          <p class="article-more-link">
-            <a href="/2018/04/26/java复习3/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/26/java复习3/" data-id="cjh731gox000f8cw7hgj958df" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-APComputerScience/">Java APComputerScience</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-interesting-Zhihu-question" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/20/interesting-Zhihu-question/" class="article-date">
-  <time datetime="2018-04-20T06:50:33.000Z" itemprop="datePublished">2018-04-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/20/interesting-Zhihu-question/">一个有趣的知乎问题实现</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>前几天在知乎上看到了这样一个有趣的问题：</p>
-<p><font color="blue"><strong>男友让我打十万个「对不起」，汉字标上多少遍。如何快速实现？</strong></font><br><strong>链接:</strong> <a href="https://www.zhihu.com/question/27229082/answer/369776555" target="_blank" rel="noopener">https://www.zhihu.com/question/27229082/answer/369776555</a><br>
-        
-          <p class="article-more-link">
-            <a href="/2018/04/20/interesting-Zhihu-question/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/20/interesting-Zhihu-question/" data-id="cjh731gnv000a8cw7zycl4m3s" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-AP-CS复习（2）-Math和Random基础" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/10/AP-CS复习（2）-Math和Random基础/" class="article-date">
-  <time datetime="2018-04-10T14:10:05.000Z" itemprop="datePublished">2018-04-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/10/AP-CS复习（2）-Math和Random基础/">AP CS复习（2）- Math和Random基础</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>本来就不是什么高产的人，但是由于AP里面会有一些琐碎的小点，所以干脆简洁的介绍一下。今天讲的就是 <code>java.lang.math</code> 和 <code>java.util.Random</code> 这两个小点。这些方法大家应该都大致懂得使用，<strong>所以过一遍就好了</strong>。</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/04/10/AP-CS复习（2）-Math和Random基础/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/10/AP-CS复习（2）-Math和Random基础/" data-id="cjh731gir00068cw7yy6ei8n0" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-APComputerScience/">Java APComputerScience</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-AP CS复习（1）- String类及其API" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/08/AP CS复习（1）- String类及其API/" class="article-date">
-  <time datetime="2018-04-08T15:49:38.000Z" itemprop="datePublished">2018-04-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/08/AP CS复习（1）- String类及其API/">AP CS复习（1）- String类及其API</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<p>很久之前就有开一个博客写文章的打算然而迟迟未能动笔。最近正好发现没有什么专门复习<font color="red">AP CS</font>的文章，所以就准备自己写一个。仔细想想，很多人会觉得<font color="red">AP CS</font>很水很弱智，所以我希望我写出的东西能够不只是应付AP本身，还要能够挖掘相对底层一点的东西（如某些方法的实现）。<br><strong>第一篇文章就从 <code>Java.lang.String</code> 这个概念讲起，大致概括AP的一些考点和一些额外的概念。</strong></p>
-<h2 id="I-AP考什么"><a href="#I-AP考什么" class="headerlink" title="I: AP考什么?"></a><font color="green">I: AP考什么?</font></h2><p>先上一张图<em>（来自<a href="http://media.collegeboard.com/digitalServices/pdf/ap/ap-computer-science-a-course-description.pdf" target="_blank" rel="noopener">CB Course Description</a>）</em></p>
-        
-          <p class="article-more-link">
-            <a href="/2018/04/08/AP CS复习（1）- String类及其API/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/08/AP CS复习（1）- String类及其API/" data-id="cjh731gij00018cw7hns2c5uy" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java-APComputerScience/">Java APComputerScience</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-My-First-Blog-Post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/07/My-First-Blog-Post/" class="article-date">
-  <time datetime="2018-04-07T13:19:27.000Z" itemprop="datePublished">2018-04-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/07/My-First-Blog-Post/">My First Blog Post!</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><strong>大家好！！！</strong></p>
-<p>很早之前就想开一个自己的博客来写一些编程/学习/日常的东西。<br>首先考虑了用[CSDN][1]/[简书][2]等平台。然而一想：这也太不Geek了吧。。所以在CSDN上写了几篇sb Java技术文章之后就没有继续了。。</p>
-<p>之后由于学了一些Java Web的技术，就想要自己从前端到后端写一个博客出来（无非就是 <code>JSP + Servlet + MySQL + JavaBean</code> 这一套，连框架都没用）。结果发现自己前端水平实在底下，然后 <code>Java Web</code> 的部署真的是捉急。所以也放弃了。</p>
-<p>最后所以还是选择Hexo这样的博客框架，然后配合Github的免费域名凑合来建博客。<strong>Markdown</strong>现在用的也不好，唉，就这样咯。</p>
-<p><strong>接下来会发布一些技术文章吧。。。或许。。。可能吧</strong></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/07/My-First-Blog-Post/" data-id="cjh731gnt00098cw76yp9uum2" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/07/hello-world/" class="article-date">
-  <time datetime="2018-04-07T10:42:56.771Z" itemprop="datePublished">2018-04-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/07/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/07/hello-world/" data-id="cjh731gis00078cw7lw28b2ko" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
