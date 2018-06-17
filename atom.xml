@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-30T15:23:01.015Z</updated>
+  <updated>2018-06-17T10:52:23.436Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mysql_proxy_pool项目开发</title>
+    <link href="http://yoursite.com/2018/06/17/mysql-proxy-pool%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/"/>
+    <id>http://yoursite.com/2018/06/17/mysql-proxy-pool项目开发/</id>
+    <published>2018-06-17T10:43:55.000Z</published>
+    <updated>2018-06-17T10:52:23.436Z</updated>
+    
+    <content type="html"><![CDATA[<p>mysql_proxy_pool是一个基于 <code>oracle</code> 数据库 <code>mysql</code> 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。</p><p>##项目特性Features</p><ul><li>可配置的参数，包括lower/higher thresholds用于动态扩容代理池。</li><li>动态检测已有代理–剔除失效代理，动态从国内代理网站爬取代理（异步检测，爬取）。</li><li>提供以flask作为http框架的flask接口获取代理。</li></ul><p>##项目依赖（可能）dependencies</p><ul><li>Flask</li><li>aiohttp</li><li>requests</li></ul><p>##上线时间 open time<br>正在开发中…</p><p>##Python版本要求<br>3.5以上（如果版本为3.4，请手动改写async/await,即使用@asyncio.coroutine装饰器以及yield from语法代替）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;mysql_proxy_pool是一个基于 &lt;code&gt;oracle&lt;/code&gt; 数据库 &lt;code&gt;mysql&lt;/code&gt; 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。&lt;/p&gt;
+&lt;p&gt;##项目特
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>我也曾是那般狂妄的少年</title>
