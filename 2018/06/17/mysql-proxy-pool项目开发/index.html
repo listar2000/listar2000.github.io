@@ -7,17 +7,19 @@
   
   <title>mysql_proxy_pool项目开发 | listar2000&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="mysql_proxy_pool是一个基于 oracle 数据库 mysql 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。 ##项目特性Features  可配置的参数，包括lower/higher thresholds用于动态扩容代理池。 动态检测已有代理–剔除失效代理，动态从国内代理网站爬取代理（异步检测，爬取）。 提供">
+  <meta name="description" content="mysql_proxy_pool是一个基于 oracle 数据库 mysql 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="mysql_proxy_pool项目开发">
 <meta property="og:url" content="http://yoursite.com/2018/06/17/mysql-proxy-pool项目开发/index.html">
 <meta property="og:site_name" content="listar2000&#39;s Blog">
-<meta property="og:description" content="mysql_proxy_pool是一个基于 oracle 数据库 mysql 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。 ##项目特性Features  可配置的参数，包括lower/higher thresholds用于动态扩容代理池。 动态检测已有代理–剔除失效代理，动态从国内代理网站爬取代理（异步检测，爬取）。 提供">
+<meta property="og:description" content="mysql_proxy_pool是一个基于 oracle 数据库 mysql 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-17T10:52:23.436Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/carbon.png">
+<meta property="og:updated_time" content="2018-06-27T16:24:48.128Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mysql_proxy_pool项目开发">
-<meta name="twitter:description" content="mysql_proxy_pool是一个基于 oracle 数据库 mysql 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。 ##项目特性Features  可配置的参数，包括lower/higher thresholds用于动态扩容代理池。 动态检测已有代理–剔除失效代理，动态从国内代理网站爬取代理（异步检测，爬取）。 提供">
+<meta name="twitter:description" content="mysql_proxy_pool是一个基于 oracle 数据库 mysql 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/carbon.png">
   
     <link rel="alternate" href="/atom.xml" title="listar2000&#39;s Blog" type="application/atom+xml">
   
@@ -93,25 +95,25 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>mysql_proxy_pool是一个基于 <code>oracle</code> 数据库 <code>mysql</code> 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。</p>
-<p>##项目特性Features</p>
-<ul>
+<p><img src="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/carbon.png" alt="图片无意义"></p>
+<a id="more"></a>
+<h2 id="项目特性Features"><a href="#项目特性Features" class="headerlink" title="项目特性Features"></a>项目特性Features</h2><ul>
 <li>可配置的参数，包括lower/higher thresholds用于动态扩容代理池。</li>
 <li>动态检测已有代理–剔除失效代理，动态从国内代理网站爬取代理（异步检测，爬取）。</li>
 <li>提供以flask作为http框架的flask接口获取代理。</li>
 </ul>
-<p>##项目依赖（可能）dependencies</p>
-<ul>
+<h2 id="项目依赖（可能）dependencies"><a href="#项目依赖（可能）dependencies" class="headerlink" title="项目依赖（可能）dependencies"></a>项目依赖（可能）dependencies</h2><ul>
 <li>Flask</li>
 <li>aiohttp</li>
 <li>requests</li>
 </ul>
-<p>##上线时间 open time<br>正在开发中…</p>
-<p>##Python版本要求<br>3.5以上（如果版本为3.4，请手动改写async/await,即使用@asyncio.coroutine装饰器以及yield from语法代替）</p>
+<h2 id="上线时间-open-time"><a href="#上线时间-open-time" class="headerlink" title="上线时间 open time"></a>上线时间 open time</h2><h3 id="2018-6-28-Update"><a href="#2018-6-28-Update" class="headerlink" title="2018.6.28 Update:"></a>2018.6.28 Update:</h3><p>已经完成了基本框架的搭建，包括基于aiohttp的异步web server以及数据库连接池工具的编写。可成功利用异步io快速爬取kuaidaili网站的免费ip，预计后面会加入更多ip网站的爬取方法。</p>
+<h2 id="Python版本要求"><a href="#Python版本要求" class="headerlink" title="Python版本要求"></a>Python版本要求</h2><p>3.5以上（如果版本为3.4，请手动改写async/await,即使用@asyncio.coroutine装饰器以及yield from语法代替）</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/06/17/mysql-proxy-pool项目开发/" data-id="cjiipp69v0005l0w7zalvxcrp" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/06/17/mysql-proxy-pool项目开发/" data-id="cjixd6nmz00081ww7jd8q6n52" class="article-share-link">Share</a>
       
       
     </footer>
@@ -119,6 +121,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2018/06/28/Star-s-Awesome-Collections/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Star&#39;s Awesome Collections 炫酷编程学习资料（持续更新）
+        
+      </div>
+    </a>
   
   
     <a href="/2018/05/30/狂妄的我/" id="article-nav-older" class="article-nav-link-wrap">
@@ -196,6 +207,10 @@ gitment.render('git')
       <ul>
         
           <li>
+            <a href="/2018/06/28/Star-s-Awesome-Collections/">Star&#39;s Awesome Collections 炫酷编程学习资料（持续更新）</a>
+          </li>
+        
+          <li>
             <a href="/2018/06/17/mysql-proxy-pool项目开发/">mysql_proxy_pool项目开发</a>
           </li>
         
@@ -209,10 +224,6 @@ gitment.render('git')
         
           <li>
             <a href="/2018/05/15/AP最后复习-Several-Sorting-Methods-in-A-Glance/">AP最后复习-Several Sorting Methods in A Glance</a>
-          </li>
-        
-          <li>
-            <a href="/2018/04/26/java复习3/">AP CS复习（3）- 浅谈Java中的参数传递</a>
           </li>
         
       </ul>

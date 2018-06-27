@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-17T10:52:23.436Z</updated>
+  <updated>2018-06-27T16:58:24.482Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>mysql_proxy_pool项目开发</title>
-    <link href="http://yoursite.com/2018/06/17/mysql-proxy-pool%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/"/>
-    <id>http://yoursite.com/2018/06/17/mysql-proxy-pool项目开发/</id>
-    <published>2018-06-17T10:43:55.000Z</published>
-    <updated>2018-06-17T10:52:23.436Z</updated>
+    <title>Star&#39;s Awesome Collections 炫酷编程学习资料（持续更新）</title>
+    <link href="http://yoursite.com/2018/06/28/Star-s-Awesome-Collections/"/>
+    <id>http://yoursite.com/2018/06/28/Star-s-Awesome-Collections/</id>
+    <published>2018-06-27T16:25:59.000Z</published>
+    <updated>2018-06-27T16:58:24.482Z</updated>
     
-    <content type="html"><![CDATA[<p>mysql_proxy_pool是一个基于 <code>oracle</code> 数据库 <code>mysql</code> 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。</p><p>##项目特性Features</p><ul><li>可配置的参数，包括lower/higher thresholds用于动态扩容代理池。</li><li>动态检测已有代理–剔除失效代理，动态从国内代理网站爬取代理（异步检测，爬取）。</li><li>提供以flask作为http框架的flask接口获取代理。</li></ul><p>##项目依赖（可能）dependencies</p><ul><li>Flask</li><li>aiohttp</li><li>requests</li></ul><p>##上线时间 open time<br>正在开发中…</p><p>##Python版本要求<br>3.5以上（如果版本为3.4，请手动改写async/await,即使用@asyncio.coroutine装饰器以及yield from语法代替）</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/github_logo.gif" alt=""></p><h2 id="说在前面："><a href="#说在前面：" class="headerlink" title="说在前面："></a>说在前面：</h2><p>我虽然在初中开始就有过一段时间的Visual Basic编程经历，但是正式的系统学习CS则是在高三选修 <code>AP CS</code>  课之后才开始的。在这短短的不到一年时间内，我一方面得到了学校内外许许多多高手的帮助(这里就不一一点名)，另一方面也自己走了很多弯路。半年前傻乎乎买过的《Java Web一月速通》现在在书架上落了不知道多少层灰，在bilibili上想学习Java却点进Javascript视频也不在少数。</p><p>然鹅，这些努力都没有白费。整个过程中，我感受到了这个时代开源编程社区以及问答社区（如知乎，StackOverflow）对于新手的友好；完整生动的文档（Vue，MyBatis）让我这种小白少走非常多的弯路。同时，Github，CSDN，甚至B站上有非常多良心的UP主带来深刻又清晰的教程。这里我整理了一份Awesome XXX系列的，个人认为非常不错的，资料–并且一直会更新。</p><p>虽然我的编程技术不够好，带来的东西的“深度”或许不入很多人的法眼；但这些东西都是能够让新手少走弯路，迅速入门的哦！</p><h2 id="目录："><a href="#目录：" class="headerlink" title="目录："></a>目录：</h2><p>大致分为几个部分：</p><ol><li>Java学习</li><li>Python学习</li><li>前端学习</li><li>开源项目</li></ol><h2 id="Java学习："><a href="#Java学习：" class="headerlink" title="Java学习："></a>Java学习：</h2><p><a href="https://www.amazon.cn/dp/B01M06CLQM/ref=sr_1_1?ie=UTF8&amp;qid=1530117552&amp;sr=8-1&amp;keywords=Core+Java" target="_blank" rel="noopener">Core Java 核心编程思想（卷I）</a></p><p>卷1是非常好的入门学习资料，即使精通Java也可以当作手册使用。卷2更加进阶但是没有普适性，故不推荐。</p><p><a href="https://www.amazon.cn/dp/0134685997/ref=sr_1_3?ie=UTF8&amp;qid=1530117722&amp;sr=8-3&amp;keywords=effective+java" target="_blank" rel="noopener">Effective Java 3rd Edition</a></p><p>第三版只有英文版，加入了Java 8新特性。该书是Java进阶的必读之作，我只读了1/4不到。上面两本都能找到电子版，链接是亚马逊的。</p><p><a href="https://my.csdn.net/javazejian" target="_blank" rel="noopener">CSDN Zejian的系列博客</a></p><p>Zejian大神的博客既有图文并茂的数据结构基础内容，也有对于Java特殊机制(并发，迭代接口等)的详细讲解，值得一读。</p><p><a href="https://biezhi.me/" target="_blank" rel="noopener">Biezhi（王爵）的一系列分享</a></p><p>Biezhi大神是Github上Java Web框架Blade的作者，同时热衷搞开源项目。上为其个人主页，可通向如Github，知乎等平台。</p><p>下面是他的B站账号，很多视频非常良心：</p><p><a href="https://space.bilibili.com/33165125/#/" target="_blank" rel="noopener">魔王不造反的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili</a></p><p>推荐视频有：</p><ol><li>跟上Java 8</li><li>技术小黑屋</li></ol><p><a href="https://www.bilibili.com/video/av10274225?from=search&amp;seid=9614513947039600494" target="_blank" rel="noopener">B站极客学院Java Web系列课程</a></p><p>从最原始的Servlet，JSP教到后面的框架使用，搭配数据库知识学习。唯一缺点就是信息量太大了😄。</p><p><a href="https://www.zhihu.com/people/rednaxelafx" target="_blank" rel="noopener">知乎R大的回答（JVM，编译原理方向）</a></p><p>R大原本是阿里巴巴的大神，专攻Java，JS VM方向。他的许多对于Java底层实现的文章非常细致详细–一定不能错过。</p><p><a href="https://www.coursera.org/learn/algorithms-part1/home/welcome" target="_blank" rel="noopener">Coursera神课: 普林斯顿Algorithm</a></p><p>算法入门课程，使用Java语言教授，可以在学习算法的同时了解OOP编程的诸多知识和Java的细节。五星推荐!</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;mysql_proxy_pool是一个基于 &lt;code&gt;oracle&lt;/code&gt; 数据库 &lt;code&gt;mysql&lt;/code&gt; 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。&lt;/p&gt;
-&lt;p&gt;##项目特
+        &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/github_logo.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;说在前面：&quot;&gt;&lt;a href=&quot;
       
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>mysql_proxy_pool项目开发</title>
+    <link href="http://yoursite.com/2018/06/17/mysql-proxy-pool%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/"/>
+    <id>http://yoursite.com/2018/06/17/mysql-proxy-pool项目开发/</id>
+    <published>2018-06-17T10:43:55.000Z</published>
+    <updated>2018-06-27T16:24:48.128Z</updated>
+    
+    <content type="html"><![CDATA[<p>mysql_proxy_pool是一个基于 <code>oracle</code> 数据库 <code>mysql</code> 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。</p><p><img src="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/carbon.png" alt="图片无意义"></p><a id="more"></a><h2 id="项目特性Features"><a href="#项目特性Features" class="headerlink" title="项目特性Features"></a>项目特性Features</h2><ul><li>可配置的参数，包括lower/higher thresholds用于动态扩容代理池。</li><li>动态检测已有代理–剔除失效代理，动态从国内代理网站爬取代理（异步检测，爬取）。</li><li>提供以flask作为http框架的flask接口获取代理。</li></ul><h2 id="项目依赖（可能）dependencies"><a href="#项目依赖（可能）dependencies" class="headerlink" title="项目依赖（可能）dependencies"></a>项目依赖（可能）dependencies</h2><ul><li>Flask</li><li>aiohttp</li><li>requests</li></ul><h2 id="上线时间-open-time"><a href="#上线时间-open-time" class="headerlink" title="上线时间 open time"></a>上线时间 open time</h2><h3 id="2018-6-28-Update"><a href="#2018-6-28-Update" class="headerlink" title="2018.6.28 Update:"></a>2018.6.28 Update:</h3><p>已经完成了基本框架的搭建，包括基于aiohttp的异步web server以及数据库连接池工具的编写。可成功利用异步io快速爬取kuaidaili网站的免费ip，预计后面会加入更多ip网站的爬取方法。</p><h2 id="Python版本要求"><a href="#Python版本要求" class="headerlink" title="Python版本要求"></a>Python版本要求</h2><p>3.5以上（如果版本为3.4，请手动改写async/await,即使用@asyncio.coroutine装饰器以及yield from语法代替）</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mysql_proxy_pool是一个基于 &lt;code&gt;oracle&lt;/code&gt; 数据库 &lt;code&gt;mysql&lt;/code&gt; 的动态代理池python项目。在以后的版本中会进一步加入对redis,mongodb,sqlite等其他数据库的支持。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/carbon.png&quot; alt=&quot;图片无意义&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -43,13 +62,14 @@
     <link href="http://yoursite.com/2018/05/30/%E7%8B%82%E5%A6%84%E7%9A%84%E6%88%91/"/>
     <id>http://yoursite.com/2018/05/30/狂妄的我/</id>
     <published>2018-05-30T15:15:22.000Z</published>
-    <updated>2018-05-30T15:23:01.015Z</updated>
+    <updated>2018-06-27T16:20:01.000Z</updated>
     
-    <content type="html"><![CDATA[<p>沉静在<strong>Diss他人</strong>快感中的人，又是否想过<font color="red"> <strong>被群起而攻之</strong> </font>时自己狼狈不堪的下场呢？</p><a id="more"></a><p><img src="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/%E9%94%AE%E7%9B%98%E4%BE%A0.jpg" alt="Keyboard Man"></p><p>今天下午看到了那个闹得沸沸扬扬的知乎回答时，我毫不犹豫的完成了一次漂亮的“反对”+“没有帮助”+“举报”三连。我没有到评论区理论或者骂人，因为我竟然在这位匿名学弟（or学妹，暂且算作学弟）的行文中看到了自己曾经的影子，也看到了那些我曾经做过而现在却后悔莫及的事。</p><p>后来这位同学的回答愈来愈稀奇古怪，什么“Lofter”上看的，什么“不是HFI的”等等自相矛盾的话语接踵而至。我想他恐怕也是心神不安的吧。知乎的匿名答题机制是他最后一道保护罩；他估计也不知道自己会不会被识破，以及识破后的后果如何吧。</p><p>我希望这个答案能被举报，因为我不希望流言蜚语被大肆传播，同时也希望能给这个不成熟的同学一个台阶下（在他依然固执的情况下）。<strong>毕竟，我也曾是那般狂妄的少年。</strong></p><font color="green"><strong>时间回到高一暑假…</strong></font><p>那时，我在金融社风头正盛，参加完几次商赛后变得有点不可一世，基本上就是感觉谁都是辣鸡那种。</p><p>我在暑假期间以学指身份参加了广州几所国际学校联合举办的一个商赛（下以P商赛代称）。心高气盛的我带领着一支HFI金融社的学指队伍，渴望“征服”珠江之滨。</p><p>回过头看，那几天商赛的进程可以算是顺利。虽然有些许摩擦和中断，但至少整个系统还是在有条不紊的进行着。可对于当时的我，很多再平常不过的失误都可以成为大肆批评一番的对象。我批评着，嘲讽着P商赛的种种不足–毕竟他们和理想主义的我的心中那种“高大上”的比赛有着太大的差距；最牛逼的地方在于，我在商赛最后一天洋洋洒洒的写出一篇自认为的大作–<font color="red"><strong>《P商赛的失败给我们的教训》</strong></font>，并在金融社内大肆传播。</p><p>可能我当时比这个匿名同学还要吊上许多吧，毕竟这篇大作的开头可是有“李思达”三个20号字体镇楼的。</p><p>后来呢，相信很多金融社的同学都知道，这篇文章被某位社员“不小心”泄露到多所学校的商赛交流群内，轰动一时。当时的金融社社长唐臣可以说为了帮我擦屁股忙的焦头烂额，那位社员也不得不道歉息事宁人。</p><p>而我呢？我不得不考虑我从没想过的一个问题：<strong>Diss完别人之后被发现咋办？</strong> 那段时间，我几乎删掉了所有和外校有联系的商赛微信群，无时无刻不在想着怎么给出合理的解释。我相信此时此刻那位匿名同学也能够分享我当时的心境吧。</p><p>我更想说的是，很多我狂妄的，自以为是的言论，都只是自己幼稚和极端理想主义的体现，也就是所谓的未经世事。再后来我当上社长之后，我真正了解到办好一个商赛需要付出多少的时间来准备和调试，知道想要避免所有的错误基本上就是无稽之谈。<strong>我明白很多时候比起过分追求细节的完美，能够完整顺利的控制整个商赛的大局更加难能可贵。</strong></p><p>我发现了P商赛那么多的好，可当初满目都是它的坏。</p><p>我后悔，却又后悔莫及。我丧失了那几所学校对HFI金融社起码的信任，这给我宣传自己商赛的时候带来巨大的难题；我和那次商赛的负责人–一位之前认识多年的老友–失去了联络；本来我可以向他请教，取经，但这一切都因为我的狂妄和傲慢而白白葬送。</p><p>我想这位匿名同学犯了和我一样同样的错误：</p><p>他以为，或者说要求，上剑桥，CMU，JHU的学长学姐都是完美无瑕的圣人，在感情方面不能移情别恋，否则就是“婊子”或“狗“。一见钟情或者坚守一生的确难能可贵，但难道寻找一段新的恋情就低人一等吗？</p><p>同样的，他认为所谓优秀学校的学生就不能在他逻辑不通时骂人，否则就是“没有素质”，全然不顾很多评论都是在讲道理和说逻辑。勇于发声和反对垃圾不实谣言和消息，是我们HFI学生扎根于血统中的精神，我为他们感到骄傲。</p><p>匿名的这位同学啊，请恕我引用《心灵捕手》中的台词劝告你，同时题型自己</p><p><strong>“你只是个孩子，你根本不晓得你在说什么。问你艺术，你可能会提出艺术书籍中的粗浅论调，有关米开朗基罗，你知道很多，他的满腔政治热情，他与教皇相交莫逆，和他的耽于性爱，你对他很清楚吧？但你知道西斯汀教堂的气味吗？你没试过站在那儿，昂首眺望天花板上的名画吧？你肯定未见过吧？ 如果我问关于女人的事，你大可以向我如数家珍，你可能上过几次床，但你没法说出在女人身旁醒来时，那份内心真正的喜悦。你年轻彪悍，我如果和你谈论战争，你大可以会向我大抛莎士比亚，背诵“共赴战场，亲爱的朋友“，但你从未亲临战阵，未试过把挚友的头拥入怀里，看着他吸着最后一口气，凝望着你，向你求助。我问你何为爱情，你可能会吟风弄月，但你未试过全情投入真心倾倒”</strong></p><p>如果你真的是一个junior学生，希望你在经历过申请季的喜怒哀乐，经历一段意义非凡的恋情后，重新回过头来审视自己回答中的“感情观”和各种观。</p><p>然后，希望你能够删除掉知乎上的答案，说一句道歉。</p><p>这并不可耻，毕竟，我也曾是那般狂妄的少年。</p>]]></content>
+    <content type="html"><![CDATA[<p>沉静在<strong>Diss他人</strong>快感中的人，又是否想过<font color="red"> <strong>被群起而攻之</strong> </font>时自己狼狈不堪的下场呢？</p><p><img src="https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/%E9%94%AE%E7%9B%98%E4%BE%A0.jpg" alt="Keyboard Man"></p><a id="more"></a><p>今天下午看到了那个闹得沸沸扬扬的知乎回答时，我毫不犹豫的完成了一次漂亮的“反对”+“没有帮助”+“举报”三连。我没有到评论区理论或者骂人，因为我竟然在这位匿名学弟（or学妹，暂且算作学弟）的行文中看到了自己曾经的影子，也看到了那些我曾经做过而现在却后悔莫及的事。</p><p>后来这位同学的回答愈来愈稀奇古怪，什么“Lofter”上看的，什么“不是HFI的”等等自相矛盾的话语接踵而至。我想他恐怕也是心神不安的吧。知乎的匿名答题机制是他最后一道保护罩；他估计也不知道自己会不会被识破，以及识破后的后果如何吧。</p><p>我希望这个答案能被举报，因为我不希望流言蜚语被大肆传播，同时也希望能给这个不成熟的同学一个台阶下（在他依然固执的情况下）。<strong>毕竟，我也曾是那般狂妄的少年。</strong></p><font color="green"><strong>时间回到高一暑假…</strong></font><p>那时，我在金融社风头正盛，参加完几次商赛后变得有点不可一世，基本上就是感觉谁都是辣鸡那种。</p><p>我在暑假期间以学指身份参加了广州几所国际学校联合举办的一个商赛（下以P商赛代称）。心高气盛的我带领着一支HFI金融社的学指队伍，渴望“征服”珠江之滨。</p><p>回过头看，那几天商赛的进程可以算是顺利。虽然有些许摩擦和中断，但至少整个系统还是在有条不紊的进行着。可对于当时的我，很多再平常不过的失误都可以成为大肆批评一番的对象。我批评着，嘲讽着P商赛的种种不足–毕竟他们和理想主义的我的心中那种“高大上”的比赛有着太大的差距；最牛逼的地方在于，我在商赛最后一天洋洋洒洒的写出一篇自认为的大作–<font color="red"><strong>《P商赛的失败给我们的教训》</strong></font>，并在金融社内大肆传播。</p><p>可能我当时比这个匿名同学还要吊上许多吧，毕竟这篇大作的开头可是有“李思达”三个20号字体镇楼的。</p><p>后来呢，相信很多金融社的同学都知道，这篇文章被某位社员“不小心”泄露到多所学校的商赛交流群内，轰动一时。当时的金融社社长唐臣可以说为了帮我擦屁股忙的焦头烂额，那位社员也不得不道歉息事宁人。</p><p>而我呢？我不得不考虑我从没想过的一个问题：<strong>Diss完别人之后被发现咋办？</strong> 那段时间，我几乎删掉了所有和外校有联系的商赛微信群，无时无刻不在想着怎么给出合理的解释。我相信此时此刻那位匿名同学也能够分享我当时的心境吧。</p><p>我更想说的是，很多我狂妄的，自以为是的言论，都只是自己幼稚和极端理想主义的体现，也就是所谓的未经世事。再后来我当上社长之后，我真正了解到办好一个商赛需要付出多少的时间来准备和调试，知道想要避免所有的错误基本上就是无稽之谈。<strong>我明白很多时候比起过分追求细节的完美，能够完整顺利的控制整个商赛的大局更加难能可贵。</strong></p><p>我发现了P商赛那么多的好，可当初满目都是它的坏。</p><p>我后悔，却又后悔莫及。我丧失了那几所学校对HFI金融社起码的信任，这给我宣传自己商赛的时候带来巨大的难题；我和那次商赛的负责人–一位之前认识多年的老友–失去了联络；本来我可以向他请教，取经，但这一切都因为我的狂妄和傲慢而白白葬送。</p><p>我想这位匿名同学犯了和我一样同样的错误：</p><p>他以为，或者说要求，上剑桥，CMU，JHU的学长学姐都是完美无瑕的圣人，在感情方面不能移情别恋，否则就是“婊子”或“狗“。一见钟情或者坚守一生的确难能可贵，但难道寻找一段新的恋情就低人一等吗？</p><p>同样的，他认为所谓优秀学校的学生就不能在他逻辑不通时骂人，否则就是“没有素质”，全然不顾很多评论都是在讲道理和说逻辑。勇于发声和反对垃圾不实谣言和消息，是我们HFI学生扎根于血统中的精神，我为他们感到骄傲。</p><p>匿名的这位同学啊，请恕我引用《心灵捕手》中的台词劝告你，同时题型自己</p><p><strong>“你只是个孩子，你根本不晓得你在说什么。问你艺术，你可能会提出艺术书籍中的粗浅论调，有关米开朗基罗，你知道很多，他的满腔政治热情，他与教皇相交莫逆，和他的耽于性爱，你对他很清楚吧？但你知道西斯汀教堂的气味吗？你没试过站在那儿，昂首眺望天花板上的名画吧？你肯定未见过吧？ 如果我问关于女人的事，你大可以向我如数家珍，你可能上过几次床，但你没法说出在女人身旁醒来时，那份内心真正的喜悦。你年轻彪悍，我如果和你谈论战争，你大可以会向我大抛莎士比亚，背诵“共赴战场，亲爱的朋友“，但你从未亲临战阵，未试过把挚友的头拥入怀里，看着他吸着最后一口气，凝望着你，向你求助。我问你何为爱情，你可能会吟风弄月，但你未试过全情投入真心倾倒”</strong></p><p>如果你真的是一个junior学生，希望你在经历过申请季的喜怒哀乐，经历一段意义非凡的恋情后，重新回过头来审视自己回答中的“感情观”和各种观。</p><p>然后，希望你能够删除掉知乎上的答案，说一句道歉。</p><p>这并不可耻，毕竟，我也曾是那般狂妄的少年。</p>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;沉静在&lt;strong&gt;Diss他人&lt;/strong&gt;快感中的人，又是否想过&lt;font color=&quot;red&quot;&gt; &lt;strong&gt;被群起而攻之&lt;/strong&gt; &lt;/font&gt;时自己狼狈不堪的下场呢？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/listar2000/java_Projects/master/blogPic/%E9%94%AE%E7%9B%98%E4%BE%A0.jpg&quot; alt=&quot;Keyboard Man&quot;&gt;&lt;/p&gt;
     
     </summary>
     
