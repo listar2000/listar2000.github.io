@@ -11,6 +11,7 @@ In collaboration with the Chicago Department of Public Health, I led the develop
 **Eric Potash**, Joe Brew, Alexander Loewi, Subhabrata Majumdar, Andrew Reece, Joe Walsh, Eric Rozier, Emile Jorgensen, Raed Mansour, and Rayid Ghani
 
 *[Randomization Bias in Field Trials to Evaluate Targeting Methods](https://www.sciencedirect.com/science/article/pii/S0165176518301034)*<br/>
+Economics Letters 167, 131-135<br/>
 **Eric Potash**
 
 *[Validation of a Prediction Model for the Primary Prevention of Childhood Lead Poisoning]()*<br/>
@@ -18,7 +19,7 @@ In collaboration with the Chicago Department of Public Health, I led the develop
 
 
 ## Fairness
-*[Prediction-Based Decisions and Fairness: A Catalogue of Choices, Assumptions, and Definitions](https://arxiv.org/abs/1811.07867)*</br>
+*[Prediction-Based Decisions and Fairness: A Catalogue of Choices, Assumptions, and Definitions](https://arxiv.org/abs/1811.07867)*<br/>
 Shira Mitchell, **Eric Potash**, Solon Barocas
 
 ## Hazardous Waste
