@@ -10,17 +10,19 @@ In collaboration with the Chicago Department of Public Health, I led the develop
 21st ACM SIGKDD Proceedings<br/>
 **Eric Potash**, Joe Brew, Alexander Loewi, Subhabrata Majumdar, Andrew Reece, Joe Walsh, Eric Rozier, Emile Jorgensen, Raed Mansour, and Rayid Ghani
 
+*[Validation of a Prediction Model for the Primary Prevention of Childhood Lead Poisoning]()*<br/>
+Submitted.<br/>
+**Eric Potash**, Rayid Ghani, Emile Jorgensen, Cortland Lohff, Nik Prachand, and Raed Mansour
+
+## Field Trial Design
 *[Randomization Bias in Field Trials to Evaluate Targeting Methods](https://www.sciencedirect.com/science/article/pii/S0165176518301034)*<br/>
 Economics Letters 167, 131-135<br/>
 **Eric Potash**
 
-*[Validation of a Prediction Model for the Primary Prevention of Childhood Lead Poisoning]()*<br/>
-**Eric Potash**, Rayid Ghani, Emile Jorgensen, Cortland Lohff, Nik Prachand, and Raed Mansour
-
-
 ## Fairness
 *[Prediction-Based Decisions and Fairness: A Catalogue of Choices, Assumptions, and Definitions](https://arxiv.org/abs/1811.07867)*<br/>
 Shira Mitchell, **Eric Potash**, Solon Barocas
+
 
 ## Hazardous Waste
 I led a collaboration with the New York State Department of Environmental Conservation to predict violations of the Resource Conservation and Recovery Act which governs the management of hazardous waste. The source code is on [GitHub](https://github.com/dssg/rcra) and we are working on a paper:
