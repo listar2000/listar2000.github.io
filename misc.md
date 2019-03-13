@@ -5,7 +5,7 @@ weight: 2
 ---
 ## Teaching
 
-I taught [Introduction to Programming for Public Policy](https://harris-ippp.github.io/) for Harris masters students in Spring 2018. I will teach Program Evaluation for Harris undergraduates in Spring 2019.
+I taught [Introduction to Programming for Public Policy](https://harris-ippp.github.io/) for Harris masters students in Spring 2018. I will teach Introduction to Program Evaluation (PBPL 26433) for undergraduates in Spring 2019.
 
 ## Writing
 My article [Why It's So Hard To Find Out Where the Candidates Stand](http://washingtonmonthly.com/2016/11/04/why-its-so-hard-to-find-out-where-the-candidates-stand/) about the history and future of election information was published in the Washington Monthly.
