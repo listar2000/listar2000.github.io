@@ -5,15 +5,17 @@ weight: 2
 ---
 ## Teaching
 
-I taught [Introduction to Programming for Public Policy](https://harris-ippp.github.io/) for Harris masters students in Spring 2018. I will teach Introduction to Program Evaluation (PBPL 26433) for undergraduates in Spring 2019.
+In Winter 2020 I am teaching Introduction to Program Evaluation (PBPL 26433) and Multilevel Regression Modeling for Public Policy (PPHA 41420). I previously taught Introduction to Program Evaluation in Spring 2019 and [Introduction to Programming for Public Policy](https://harris-ippp.github.io/) in Spring 2018.
 
 ## Writing
-My article [Why It's So Hard To Find Out Where the Candidates Stand](http://washingtonmonthly.com/2016/11/04/why-its-so-hard-to-find-out-where-the-candidates-stand/) about the history and future of election information was published in the Washington Monthly.
+[{% newthought "Why It's So Hard To Find Out Where the Candidates Stand" %}](http://washingtonmonthly.com/2016/11/04/why-its-so-hard-to-find-out-where-the-candidates-stand/) This article about the history and future of election information was published in the Washington Monthly.
+
+[{% newthought "The 7 Most Remote Chicago Parks" %}](articles/17/chicago-parks) This article about Chicago greenspace was reported on by CBS.
 
 ## Software
 [{% newthought 'Is the Weather Weird?' %}](https://www.istheweatherweird.com) Jonah-Bloch Johnson and I made a website to help answer that question.
 
-[{% newthought 'Higher Ground' %}](https://github.com/potash/higher-ground) This work-in-progress uses OpenStreetMap data to analyze and visualize urban greenspace. I used it to write an [article](articles/17/chicago-parks) about Chicago greenspace which was reported by [CBS](http://chicago.cbslocal.com/2017/11/06/park-566-master-plan/).
+[{% newthought 'Higher Ground' %}](https://github.com/potash/higher-ground) This work-in-progress uses OpenStreetMap data to analyze and visualize urban greenspace. I used it to write the above [article](articles/17/chicago-parks) about Chicago greenspace.
 
 [{% newthought 'drain' %}](https://github.com/potash/drain) is a simple and powerful Python framework for reproducible and parallel data science workflows.
 
