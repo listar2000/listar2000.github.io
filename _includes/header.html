@@ -7,14 +7,17 @@
 	<ul class="topnav">    
         {% assign pages = site.pages | sort:"weight" | reverse %}
 	{% for node in pages %}
-		{% unless node.nav_exclude %}
-		    {% if page.url == node.url %}
-                    <li><a class="active right" href="{{node.url | prepend: site.baseurl}}" class="active">{{node.title}}</a></li>
-		    {% else %}
-                    <li><a class="right" href="{{node.url | prepend: site.baseurl}}">{{node.title}}</a></li>
-		    {% endif %}
+            {% if node.title %}
+            {% unless node.nav_exclude %}
+	        {% if page.url == node.url %}
+                <li><a class="active right" href="{{node.url | prepend: site.baseurl}}">{{node.title}}</a></li>
+	        {% else %}
+                <li><a class="right" href="{{node.url | prepend: site.baseurl}}">{{node.title}}</a></li>
+	        {% endif %}
 	    {% endunless %}
+            {% endif %}
   	{% endfor %}
+        <li><a class="right" href="{{site.baseurl}}/assets/pdf/cv.pdf">cv</a></li>
 	</ul>
 	</nav>
         <hr class="slender">
