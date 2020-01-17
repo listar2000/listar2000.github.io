@@ -430,6 +430,9 @@ li.listing {
   }
 }
 
+p.paper {
+    margin-left: 20px;
+}
 
 li.listing:last-of-type{
   border-bottom: none;
@@ -518,4 +521,5 @@ hr.slender {
     body header , body footer {
       display:none;
     }
+
 }
