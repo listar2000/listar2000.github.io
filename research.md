@@ -20,7 +20,7 @@ Submitted.
 
 As a member of the Proactively Addressing Substandard Housing (PASH) working group, I helped draft a city ordinance proposing the [Chicago Healthy Homes Inspection Program (CHHIP)](https://www.tenants-rights.org/programs/advocacy/chhip/), a universal rental housing inspection program to protect tenants from health hazards including lead.
 
-## Water Resources
+## Environmental Monitoring
 
 <p class="paper" markdown="1">
     *[A Bayesian Approach to Water Quality Modeling and Cross Validation in the Presence of Measurement Error]()*, 
