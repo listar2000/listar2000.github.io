@@ -34,7 +34,7 @@ As a member of the Proactively Addressing Substandard Housing (PASH) working gro
     Economics Letters 167, 131-135. E Potash
 </p>
 
-## Fairness
+## Algorithmic Fairness
 <p class="paper" markdown="1">
 *[Prediction-Based Decisions and Fairness: A Catalogue of Choices, Assumptions, and Definitions](https://arxiv.org/abs/1811.07867)*, 
 Preprint. 
