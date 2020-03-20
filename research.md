@@ -23,8 +23,8 @@ As a member of the Proactively Addressing Substandard Housing (PASH) working gro
 ## Environmental Monitoring
 
 <p class="paper" markdown="1">
-    *[A Bayesian Approach to Water Quality Modeling and Cross Validation in the Presence of Measurement Error]()*, 
-    In Preparation.
+    *[A Bayesian Approach to Water Quality Modeling and Cross Validation in the Presence of Measurement Error]({{site.baseurl}}/assets/pdf/water_quality.pdf)*, 
+    Submitted.
     **E Potash**
 </p>
 
