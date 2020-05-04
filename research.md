@@ -23,9 +23,9 @@ As a member of the Proactively Addressing Substandard Housing (PASH) working gro
 ## Environmental Monitoring
 
 <p class="paper" markdown="1">
-    *[A Bayesian Approach to Recreational Water Quality Modeling and Cross Validation in the Presence of Measurement Error]({{site.baseurl}}/assets/pdf/water_quality.pdf)*, 
+    *[A Bayesian Approach to Recreational Water Quality Model Validation and Comparison in the Presence of Measurement Error]({{site.baseurl}}/assets/pdf/water_quality.pdf)*, 
     Submitted.
-    **E Potash**
+    **E Potash** and S Steinschneider
 </p>
 
 ## Field Trial Design
