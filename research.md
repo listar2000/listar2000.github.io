@@ -4,7 +4,7 @@ title: Research
 weight: 2
 ---
 ## Lead Poisoning
-In collaboration with the Chicago Department of Public Health, I led the development of a predictive model to target home lead investigations. The source code is available on [GitHub](htts://github.com/chicago/lead-model). Our work was reported in the [Chicago Tribune](http://www.chicagotribune.com/news/ct-big-data-police-misconduct-met-20160816-story.html), [The Atlantic](https://www.theatlantic.com/technology/archive/2016/01/predictive-policing-food-poisoning/423126/), and [South Side Weekly](http://southsideweekly.com/living-with-lead/). We wrote a paper on the development of the model and are working on its validation:
+In collaboration with the Chicago Department of Public Health, I led the development of a predictive model to target home lead investigations. The source code is available on [GitHub](https://github.com/chicago/lead-model). Our work was reported in the [Chicago Tribune](http://www.chicagotribune.com/news/ct-big-data-police-misconduct-met-20160816-story.html), [The Atlantic](https://www.theatlantic.com/technology/archive/2016/01/predictive-policing-food-poisoning/423126/), and [South Side Weekly](http://southsideweekly.com/living-with-lead/). We wrote a paper on the development of the model and are working on its validation:
 
 <p class="paper" markdown="1">
     *[Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning]({{site.baseurl}}/assets/pdf/lead_kdd.pdf)*.
