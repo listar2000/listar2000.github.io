@@ -3,9 +3,6 @@ layout: full-width
 title: Misc
 weight: 2
 ---
-## Teaching
-
-In Winter 2020 I am teaching Introduction to Program Evaluation (PBPL 26433) and Multilevel Regression Modeling for Public Policy (PPHA 41420). I previously taught Introduction to Program Evaluation in Spring 2019 and [Introduction to Programming for Public Policy](https://harris-ippp.github.io/) in Spring 2018.
 
 ## Writing
 [*Why It's So Hard To Find Out Where the Candidates Stand*](http://washingtonmonthly.com/2016/11/04/why-its-so-hard-to-find-out-where-the-candidates-stand/)<br/> This article about the history and future of election information was published in the Washington Monthly.
@@ -29,3 +26,13 @@ In Winter 2020 I am teaching Introduction to Program Evaluation (PBPL 26433) and
 
 [*Cook Scheduler*](https://github.com/potash/cook_scheduler)<br/>This python script uses linear programming to optimize the selection of a cook schedule given each cook's preferences.
 
+## Teaching
+
+[*Multilevel Regression Modeling for Public Policy*](assets/pdf/syllabus/multilevel.pdf) (PPHA 41420)<br/>
+Regression from the Bayesian perspective and an introduction to multilevel modeling through examples in public health and political science.
+
+[*Introduction to Program Evaluation*](assets/pdf/syllabus/program_eval.pdf) (PBPL 26433)<br/>
+Introduction to regression and its application to observational and quasi-experimental causal inference for policy evaluation.
+
+[*Introduction to Programming for Public Policy*](https://harris-ippp.github.io/) (PPHA 30550)<br/>
+Introduction to data analysis in python with pandas along with bits of web APIs, databases, and GIS.
