@@ -13,7 +13,7 @@ In collaboration with the Chicago Department of Public Health, I led the develop
 </p>
 
 <p class="paper" markdown="1">
-    *[Validation of a Machine Learning Model to Predict Childhood Lead Poisoning]()*, 
+    *[Validation of a Machine Learning Model to Predict Childhood Lead Poisoning](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770650)*, 
 Jama Network Open, 2020.
     **E Potash**, R Ghani, J Walsh, E Jorgensen, C Lohff, N Prachand, R Mansour
 </p>
