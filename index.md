@@ -6,7 +6,7 @@ exclude_title: true
 nav_exclude: true
 ---
 
-<img align="left" src="assets/img/headshot.jpg" style="margin-right:1em; margin-bottom:.25em; height:12em; width:12em">
+<img class="headshot" src="assets/img/headshot.jpg">
 I'm a postdoctoral scholar at the University of Chicago's [Harris School of Public Policy](http://harris.uchicago.edu).
 
 I'm interested in public health, environmental monitoring, and public policy. My recent [research]({{site.baseurl}}/research.html) is primarily in environmental health with a focus on childhood lead poisoning. My methodological interests include causal inference, Bayesian multilevel modeling, targeted interventions, experimental design, and spatiotemporal modeling.

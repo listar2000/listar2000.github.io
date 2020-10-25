@@ -464,6 +464,28 @@ hr.slender {
   }
 }
 
+@media (min-width: 760px) {
+    img.headshot {
+        width: 12em;
+        height: 12em;
+        margin-right: 1em;
+        margin-bottom: .25em;
+        float: left;
+    }
+}
+
+@media (max-width: 760px) {
+	img.headshot {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+        max-width: 12em;
+        max-height: 12em;
+	}
+}
+
+
 //printing stuff
 @media print {
 
@@ -523,3 +545,5 @@ hr.slender {
     }
 
 }
+
+
