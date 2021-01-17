@@ -5,6 +5,8 @@ weight: 2
 ---
 
 ## Writing
+[*Why I'm Letting My Travel Grant Expire*](https://knowledge.uchicago.edu/record/2773)<br/>This essay reflects on the limitations and benefits of personal carbon footprint accounting.
+
 [*Why It's So Hard To Find Out Where the Candidates Stand*](http://washingtonmonthly.com/2016/11/04/why-its-so-hard-to-find-out-where-the-candidates-stand/)<br/> This article about the history and future of election information was published in the Washington Monthly.
 
 [*The 7 Most Remote Chicago Parks*](articles/17/chicago-parks)<br/>This article about Chicago greenspace was reported on by [CBS](https://chicago.cbslocal.com/2017/11/06/park-566-master-plan/).
