@@ -40,10 +40,10 @@ function higher_ground(args) {
     });
 
     var mymap = L.map(name + '-map').setView([lat, lng], 13);
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + ACCESS_TOKEN, {
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + ACCESS_TOKEN, {
             attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>; © <a href="http://mapbox.com">Mapbox</a>',
             maxZoom: 18,
-            id: 'mapbox.streets',
+            id: 'mapbox/streets-v11',
     }).addTo(mymap);
 
     var marker = L.marker([lat, lng]).addTo(mymap);
