@@ -6,7 +6,7 @@ weight: 2
 ## Environmental Monitoring
 <p class="paper" markdown="1">
     *[How to estimate soil organic carbon stocks of agricultural fields? Perspectives using ex-ante evaluation]({{site.baseurl}}/assets/pdf/bondville.pdf)*<br/>
-    To appear in *Geoderma* (2022)<br/>
+    *Geoderma* 411, 115693 (2022)<br/>
     **E Potash**, K Guan, A Margenot, DK Lee, E DeLucia, S Wang, C Jang
 </p>
 
@@ -14,7 +14,7 @@ weight: 2
 
 <p class="paper" markdown="1">
     *[A Bayesian Approach to Recreational Water Quality Model Validation and Comparison in the Presence of Measurement Error]({{site.baseurl}}/assets/pdf/water_quality.pdf)*<br/>
-    To appear in *Water Resources Research* (2022)<br/>
+    *Water Resources Research*, e2021WR031115 (2022)<br/>
     **E Potash** and S Steinschneider
 </p>
 
