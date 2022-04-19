@@ -5,7 +5,7 @@ weight: 2
 ---
 
 ## Writing
-[*Why I'm Letting My Travel Grant Expire*](https://knowledge.uchicago.edu/record/2773)<br/>This essay reflects on the limitations and benefits of personal carbon footprint accounting.
+[*Why I'm Letting My Travel Grant Expire*](assets/pdf/flying.pdf)<br/>This essay reflecting on the limitations and benefits of personal carbon footprint accounting was published in [Burnout](https://knowledge.uchicago.edu/record/2773).
 
 [*Why It's So Hard To Find Out Where the Candidates Stand*](http://washingtonmonthly.com/2016/11/04/why-its-so-hard-to-find-out-where-the-candidates-stand/)<br/> This article about the history and future of election information was published in the Washington Monthly.
 
