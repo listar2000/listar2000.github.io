@@ -17,7 +17,7 @@ post:
 #  template: _page.txt
 #  extension: md
 editor: vim
-gems:
+plugins:
     - jekyll-seo-tag
 git:
   branch: master

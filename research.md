@@ -5,6 +5,13 @@ weight: 2
 ---
 ## Environmental Monitoring
 <p class="paper" markdown="1">
+    *[Multi-site evaluation of stratified and balanced sampling of soil organic carbon stocks in agricultural fields]({{site.baseurl}}/assets/pdf/multisite_soc.pdf)*<br/>
+    *Geoderma* 438, 116587 (2023)<br/>
+    **E Potash**, K Guan, A Margenot, DK Lee, A Boe, M Douglass, E Heaton, C Jang, V Jin, N Li, R Mitchell, N Namoi, M Schmer, S Wang, C Zumpf
+</p>
+
+
+<p class="paper" markdown="1">
     *[How to estimate soil organic carbon stocks of agricultural fields? Perspectives using ex-ante evaluation]({{site.baseurl}}/assets/pdf/bondville.pdf)*<br/>
     *Geoderma* 411, 115693 (2022)<br/>
     **E Potash**, K Guan, A Margenot, DK Lee, E DeLucia, S Wang, C Jang
