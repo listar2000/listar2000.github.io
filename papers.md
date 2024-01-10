@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: Writings
+title: Papers
 weight: 2
 ---
 ## Autonomous Empirical Research Group
@@ -10,6 +10,11 @@ weight: 2
     **Sida Li**, Ioana Marinescu, Sebastian Musslick
 </p>
 
+<p class="paper" markdown="1">
+    *[Evaluating Computational Discovery in the Behavioral and Brain Sciences](http://cogsys.org/symposium/discovery-2023/abstracts/Abstract_3481.pdf)*<br/>
+    *AAAI Spring Symposium Series* (2023)<br/>
+    Sebastian Musslick, Joshua Hewson, Ben Andrew, **Sida Li**, George Dang, John Gerrard Holland
+</p>
 
 <p class="paper" markdown="1">
     *[Hierachical Bayesian Symbolic Regression]({{site.baseurl}}/assets/pdf/hbsr.pdf)*<br/>
