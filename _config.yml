@@ -1,9 +1,9 @@
 baseurl:
-title: Eric Potash
-author: Eric Potash
+title: Sida Li
+author: Sida Li
 simple_search: http://google.com/search
 description: Personal webpage
-name: Eric Potash
+name: Sida (Star) Li
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
@@ -25,5 +25,5 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/clayh53.github.com/
+  destination: ~/Git/listar2000.github.com/
 google_analytics: UA-92954464-1

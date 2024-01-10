@@ -2,9 +2,11 @@
 <header>
     <nav class="group">
         <ul class="topnav" style="float:left">
-            <li><a style="padding-top:.5em" href="{{site.baseurl}}/"><strong>Eric Potash</strong></a></li>
+            <!-- <h1><a style="padding-top:.5em" href="{{site.baseurl}}/"><strong>Sida (Star) Li</strong></a></h1> -->
+            <h1 style="padding-top:.5em; color: #a00000; margin-bottom: 0;"><strong>Sida (Star) Li</strong></h1>
         </ul>
 	<ul class="topnav">    
+        <li><a class="right" href="{{site.baseurl}}/">Home</a></li>
         {% assign pages = site.pages | sort:"weight" | reverse %}
 	{% for node in pages %}
             {% if node.title %}
