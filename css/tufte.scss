@@ -120,7 +120,7 @@ p .subtitle { font-style: italic;
              line-height: 1.08888888888889; }
 
 
-p, ol, ul { font-size: 1.4rem; }
+p, ol, ul { font-size: 1.2rem; }
 
 ul.topnav { width: 100% }
 ul.topnav > li { padding-right: 0em }
@@ -212,8 +212,12 @@ article { position: relative;
 section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
-ul,ol { width: 45%;
-     list-style-type: none; }
+ul,ol { width: 45%; }
+    // list-style-type: none; }
+
+ul,ol topnav {
+  list-style-type: none;
+}
 
 //li { padding: 0.5em 0; } //vertical padding on list items screws up vertical rhythym
 
@@ -243,7 +247,7 @@ img { max-width: 100%; }
                          width: 50%;
                          margin-top: 0;
                          margin-bottom: 1.96rem;
-                         font-size: 1.0rem;
+                         font-size: 0.9rem;
                          line-height: 1.96; //changed to bring line heights into rational pattern
                          vertical-align: baseline;
                          position: relative; }
@@ -465,10 +469,10 @@ hr.slender {
 
 @media (min-width: 760px) {
     img.headshot {
-        width: 9.5em;
+        width: 10em;
         height: 12em;
         margin-top: .25em;
-        margin-right: 1em;
+        margin-right: 2em;
         margin-bottom: .25em;
         float: left;
     }

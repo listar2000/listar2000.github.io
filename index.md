@@ -12,6 +12,6 @@ I am a second-year M.S. Statistics student at the University of Chicago, advised
 
 My research interests seek to answer two questions: (1) how to leverage probablistic thinking, e.g. prior knowledge and decision theory, to build more robust and versatile machine learning models (**Probablistic ML**)? (2) how do we allow efficient inferences on these models when faced with large-scale real world data (**Approximate Inference**)?
 
-Concrete projects I've worked or is working on include deep probablistic models for *symbolic regression*, accelerating *Langevin Monte Carlo* inference engine, and various *scentific software package* developments. See my [research page]({{site.baseurl}}/research.html) for details.
+Concrete projects I've worked or is working on include deep probablistic models for *symbolic regression*, accelerating *Langevin Monte Carlo* inference engine, and various *scentific software package* developments. See my [research page](projects/uchicago_thesis) for details.
 
 Previously, I graduated from UC Berkeley with double majors in Stat & CS. My academic journey started with working alongside [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) and [Prof. Aditya Guntuboyina](https://www.stat.berkeley.edu/~aditya/).
