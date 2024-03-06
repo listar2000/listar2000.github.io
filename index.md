@@ -8,7 +8,7 @@ nav_exclude: true
 
 <img class="headshot" src="assets/img/headshot.jpg">
 
-I am a second-year M.S. Statistics student at the University of Chicago, advised by [Prof. Daniel Sanz-Alonso](https://sites.google.com/a/uchicago.edu/sanz-alonso/). I am also a part of the [AER Lab](https://musslick.github.io/AER_website/About.html) at Brown under the mentorship of [Prof. Sebastian Musslick](https://smusslick.com/).
+I am an incoming Ph.D. student at UChicago [Data Science Institute](https://datascience.uchicago.edu/) (DSI), and a second-year M.S. Statistics student advised by [Prof. Daniel Sanz-Alonso](https://sites.google.com/a/uchicago.edu/sanz-alonso/). I am also a part of the [AER Lab](https://musslick.github.io/AER_website/About.html) at Brown under the mentorship of [Prof. Sebastian Musslick](https://smusslick.com/).
 
 My research interests seek to answer two questions: (1) how to leverage probablistic thinking, e.g. prior knowledge and decision theory, to build more robust and versatile machine learning models (**Probablistic ML**)? (2) how do we allow efficient inferences on these models when faced with large-scale real world data (**Approximate Inference**)?
 
