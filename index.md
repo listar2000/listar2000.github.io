@@ -14,4 +14,4 @@ My research interests seek to answer two questions: (1) how to leverage probabli
 
 Concrete projects I've worked or is working on include deep probablistic models for *symbolic regression*, accelerating *Langevin Monte Carlo* inference engine, and various *scentific software package* developments. See my [research page](projects/uchicago_thesis) for details.
 
-Previously, I graduated from UC Berkeley with double majors in Stat & CS. My academic journey started with working alongside [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) and [Prof. Aditya Guntuboyina](https://www.stat.berkeley.edu/~aditya/).
+Previously, I graduated from UC Berkeley with double majors in Stat & CS. My academic journey started with working alongside [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) and [Prof. Aditya Guntuboyina](https://www.stat.berkeley.edu/~aditya/). A boring but extended bio about my life before college is at [here](extended_bio.txt).
