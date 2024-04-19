@@ -21,6 +21,6 @@ Having said that, statistics is such a broad field that I cannot, and don't want
 
 <h1 style="font-size: 30px" id="reading">2. Reading Program in Variational Inference</h1>
 
-📚: Exact reading list TBD; refer to [this repo](https://github.com/listar2000/personal_website_dev)
+📚: Exact reading list TBD; refer to [this repo](https://github.com/bayinf/awesome-variational-inference)
 
 I'm super grateful for the many reading programs that I have done over the past years, and would love to offer the same opportunity for current students @ UChicago. In particular, variational inference has grown out of an approximate Bayesian method and become a pivotal tool in generative AI and representation learning. Starting from **June 2024**, I plan to host 1-2 students in a reading group for recent VI advancements. The ultimate goal of the program would be original research topics in the field, with potential opportunity to collaborate on a conference paper. Feel free to email me with **[VI reading]** title for any related inquires.
