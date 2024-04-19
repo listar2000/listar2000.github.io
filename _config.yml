@@ -26,4 +26,4 @@ transfer:
   settings: -av
   source: _site/
   destination: ~/Git/listar2000.github.com/
-google_analytics: UA-92954464-1
+google_analytics: G-8G5Y29JQ3E
