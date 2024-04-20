@@ -437,6 +437,12 @@ p.paper {
     margin-left: 20px;
 }
 
+p.vi_paper {
+  & a {
+    font-size: 25px
+  }
+}
+
 li.listing:last-of-type{
   border-bottom: none;
   margin-bottom: 1.4rem;
