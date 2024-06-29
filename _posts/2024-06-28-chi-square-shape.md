@@ -73,6 +73,6 @@ Finally, we want to numerically verify the convexity/concavity of the chi-square
    \frac{d^2}{dz^2} f_{Z_k}(z) &= \left[ \frac{k - z - 2}{2z} \right] \frac{d}{dz} f_{Z_k}(z) + \left[ \frac{2-k}{2z^2} \right] f_{Z_k}(z) \newline
    &= \left[ \frac{(k - z - 2)^2 + 4 - 2k}{4z^2} \right] f_{Z_k}(z)
 \end{align}\\]
-Once again, since the density itself is nonnegative, we only need to focus on the first term. For $$k < 2$$, we have $$4 - 2k > 0$$, so the first term is always positive. Thus we have a positive second derivative ("curvature") for all $$z$$ and the density is concave. Similar things happen when $$k = 2$$, as the second derivative is always positive as long as $$z > 0$$.
+Once again, since the density itself is nonnegative, we only need to focus on the first term. For $$k < 2$$, we have $$4 - 2k > 0$$, so the first term is always positive. Thus we have a positive second derivative ("curvature") for all $$z$$ and the density is convex. Similar things happen when $$k = 2$$, as the second derivative is always positive as long as $$z > 0$$.
 
 When $$k > 2$$, convexity/concavity changes over different combinations of $$z$$ and $$k$$. As we can see from **Figure 2**, the density might turn from being concave to convex, or the other way around.
