@@ -12,9 +12,10 @@
   {% endif %}
   
   <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
-  {% if site.data.options.mathjax %}
+  <!-- {% if site.data.options.mathjax %}
     <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  {% endif %}
+  {% endif %} -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML"></script>
 
   <link rel="stylesheet" type="text/css" href="{{ "/css/tufte.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" type="text/css" href="{{ "/css/icomoon.css" | prepend: site.baseurl }}">
