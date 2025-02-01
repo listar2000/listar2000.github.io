@@ -3,6 +3,13 @@ layout: full-width
 title: Papers
 weight: 2
 ---
+## Preprint & In-submission
+<p class="paper" markdown="1">
+    *[Prediction-Powered Adaptive Shrinkage Estimation]({{site.baseurl}}/assets/pdf/pas.pdf)*<br/>
+    *In Submission* (2025)<br/>
+    **Sida Li**, Nikolaos Ignatiadis
+</p>
+
 ## Autonomous Empirical Research Group
 <p class="paper" markdown="1">
     *[GFN-SR: Generative Flow Networks for Symbolic Regression]({{site.baseurl}}/assets/pdf/gfn.pdf)*<br/>
@@ -17,18 +24,18 @@ weight: 2
 </p>
 
 <p class="paper" markdown="1">
-    *[Hierachical Bayesian Symbolic Regression]({{site.baseurl}}/assets/pdf/hbsr.pdf)*<br/>
-    *Work in Progress* (2024)<br/>
-    **Sida Li**, Joshua Hewson
+    *[AutoRA: Automated research assistant for closed-loop empirical research](https://joss.theoj.org/papers/10.21105/joss.06839.pdf)*<br/>
+    *Journal of Open Source Software* (2024)<br/>
+    Sebastian Musslick, Benjamin Andrew, Chad C Williams, **Sida Li**, Ioana Marinescu, Marina Dubova, George T Dang, Younes Strittmatter, John G Holland
 </p>
 
 
 ## The University of Chicago
-<p class="paper" markdown="1">
+<!-- <p class="paper" markdown="1">
     *[Risk-Aware Variational Autoencoder]({{site.baseurl}}/assets/pdf/ravae.pdf)*<br/>
     *TTIC 31220 Course Paper* (2023)<br/>
     **Sida Li**, Hao Zhu
-</p>
+</p> -->
 
 <p class="paper" markdown="1">
     *[Amortization and Surrogate Gaps in Variational Sequential Monte Carlo]({{site.baseurl}}/assets/pdf/gap_vsmc.pdf)*<br/>
