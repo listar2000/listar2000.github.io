@@ -12,6 +12,6 @@ I am an first-year Ph.D. student at UChicago [Data Science Institute](https://da
 
 My research interests seek to answer two questions: (1) how to leverage probablistic thinking, e.g. prior knowledge and decision theory, to build more robust and versatile machine learning models (**Probablistic ML**)? (2) how do we allow efficient and accurate inferences on model predictions when faced with large-scale real world data (**Prediction-Powered Inference**)?
 
-Much earlier, I graduated from UC Berkeley with double majors in Stat & CS. My academic journey started with working alongside [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) and [Prof. Aditya Guntuboyina](https://www.stat.berkeley.edu/~aditya/). A boring but extended bio about my life before college is at [here](extended_bio.txt).
+Even earlier, I graduated from UC Berkeley with double majors in Stat & CS. 
 
 <!-- For **current/prospective students** having questions about M.S./Ph.D. applications in Statistics/DS, I plan to spend an hour every week doing online Q&A. Feel free to book my time [here](projects/external_opportunities); for current <u>UChicago undergrad/master</u> interested in my variational inference reading list, you can contact me for potential [reading program](projects/external_opportunities#reading). -->
