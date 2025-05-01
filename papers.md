@@ -3,7 +3,7 @@ layout: full-width
 title: Papers
 weight: 2
 ---
-## Preprint & In-submission
+## The University of Chicago
 <p class="paper" markdown="1">
     *[Prediction-Powered Adaptive Shrinkage Estimation](https://arxiv.org/abs/2502.14166)*<br/>
     *International Conference on Machine Learning (ICML)* (2025), [📒slides](https://drive.google.com/file/d/1ndle1kcX7jKnsyVYRcS_JNwLssjqu_1n/view?usp=sharing)<br/>
@@ -29,8 +29,7 @@ weight: 2
     Sebastian Musslick, Benjamin Andrew, Chad C Williams, **Sida Li**, Ioana Marinescu, Marina Dubova, George T Dang, Younes Strittmatter, John G Holland
 </p>
 
-
-## The University of Chicago
+## UC Berkeley & Misc
 <!-- <p class="paper" markdown="1">
     *[Risk-Aware Variational Autoencoder]({{site.baseurl}}/assets/pdf/ravae.pdf)*<br/>
     *TTIC 31220 Course Paper* (2023)<br/>
@@ -43,7 +42,6 @@ weight: 2
     **Sida Li**, Aaron Schein<br/>
 </p>
 
-## UC Berkeley & Misc
 <p class="paper" markdown="1">
     *[Feedback Linearization of Car Dynamics for Racing viar Reinforcement Learning](https://www.arxiv.org/abs/2110.10441)*<br/>
     *Arxiv* (2021)<br/>
