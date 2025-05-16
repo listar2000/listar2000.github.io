@@ -5,6 +5,12 @@ weight: 2
 ---
 ## The University of Chicago
 <p class="paper" markdown="1">
+    *[ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning]({{site.baseurl}}/assets/pdf/shorterbetter.pdf)*<br/>
+    *Preprint (Under Review)* (2025)<br/>
+    Jingyang Yi, Jiazheng Wang, **Sida Li**
+</p>
+
+<p class="paper" markdown="1">
     *[Prediction-Powered Adaptive Shrinkage Estimation](https://arxiv.org/abs/2502.14166)*<br/>
     *International Conference on Machine Learning (ICML)* (2025), [📒slides](https://drive.google.com/file/d/1ndle1kcX7jKnsyVYRcS_JNwLssjqu_1n/view?usp=sharing)<br/>
     **Sida Li**, Nikolaos Ignatiadis
