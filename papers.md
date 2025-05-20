@@ -5,7 +5,7 @@ weight: 2
 ---
 ## The University of Chicago
 <p class="paper" markdown="1">
-    *[ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning]({{site.baseurl}}/assets/pdf/shorterbetter.pdf)*<br/>
+    *[ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning](https://arxiv.org/abs/2504.21370v2)*<br/>
     *Preprint (Under Review)* (2025)<br/>
     Jingyang Yi, Jiazheng Wang, **Sida Li**
 </p>
