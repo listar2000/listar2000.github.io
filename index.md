@@ -8,7 +8,7 @@ nav_exclude: true
 
 <img class="headshot" src="assets/img/headshot.jpg">
 
-I am an first-year Ph.D. student at UChicago [Data Science Institute](https://datascience.uchicago.edu/) (DSI) working with [Prof. Nikolaos Ignatiadis](https://nignatiadis.github.io/). Previously, I finished my M.S. in Statistics under the supervision of [Prof. Daniel Sanz-Alonso](https://sites.google.com/a/uchicago.edu/sanz-alonso/). I am also a part of the [AER Lab](https://musslick.github.io/AER_website/About.html) at Brown under the mentorship of [Prof. Sebastian Musslick](https://smusslick.com/).
+I am an first-year Ph.D. student at UChicago [Data Science Institute](https://datascience.uchicago.edu/) (DSI) working with [Prof. Nikolaos Ignatiadis](https://nignatiadis.github.io/). Previously, I finished my M.S. in Statistics under the supervision of [Prof. Daniel Sanz-Alonso](https://sites.google.com/a/uchicago.edu/sanz-alonso/). I am also a part of the [AER Lab](https://musslick.github.io/AER_website/About.html) at Brown under the mentorship of [Prof. Sebastian Musslick](https://smusslick.com/). Here is my [Google Scholar](https://scholar.google.com/citations?user=XBTlUzUAAAAJ&hl=en&oi=sra).
 
 My research interests seek to answer two questions: (1) how to leverage probablistic thinking, e.g. prior knowledge and decision theory, to build more robust and versatile machine learning models (**Probablistic ML**)? (2) how do we allow efficient and accurate inferences on model predictions when faced with large-scale real world data (**Prediction-Powered Inference**)?
 
