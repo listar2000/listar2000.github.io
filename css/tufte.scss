@@ -410,6 +410,18 @@ body.full-width, .content-listing, ul.content-listing li.listing{ width: 90%;
   width: 90%;
 }
 
+.full-width article ol, .full-width article ul {
+  width: 100%;
+  padding-left: 2rem;
+  margin-left: 0;
+}
+
+.full-width li {
+  margin-left: 0;
+  padding-left: 0.5rem;
+  text-indent: 0;
+}
+
 
 h1.content-listing-header{
   font-style: normal;
