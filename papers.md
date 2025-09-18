@@ -11,15 +11,15 @@ weight: 2
     <u>Prophet Arena Team</u> (Leads: Tony Yang, Simon Mahns, **Sida Li** | Advisors: Jibang Wu, Haifeng Xu)
 </p>
 
+## Conference & Journal Papers
+
 <p class="paper" markdown="1">
-    *[ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning](https://arxiv.org/abs/2504.21370v2)*<br/>
-    *Preprint (Under Review)* (2025)<br/>
+    *[ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning](https://arxiv.org/abs/2504.21370)*<br/>
+    *Neural Information Processing Systems* (**NeurIPS 2025**)<br/>
     [🕸 Website](https://jiazheng-wang-yes.github.io/ShorterBetter_ProjectPage/) | [💻 Code](https://github.com/JingyangYi/ShorterBetter) | [🤗 Huggingface (SB-7B)](https://huggingface.co/JingyangYi/SB_DS7B_alpha_2/tree/main)<br/>
     Jingyang Yi, Jiazheng Wang, **Sida Li**
 </p>
 
-
-## Conference & Journal Papers
 <p class="paper" markdown="1">
     *[Prediction-Powered Adaptive Shrinkage Estimation](https://arxiv.org/abs/2502.14166)*<br/>
     *International Conference on Machine Learning* (**ICML 2025**)<br/>
