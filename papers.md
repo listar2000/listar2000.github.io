@@ -3,9 +3,16 @@ layout: full-width
 title: Papers
 weight: 2
 ---
-## Preprints & In-submission
+## Preprints & In-submission 
+_(\* for equal contribution)_
 <p class="paper" markdown="1">
-    *[Prophet Arena: A Live Benchmark for Predictive Intelligence](https://www.prophetarena.co/)*<br/>
+    🗺️ *[Mapping Overlaps in Benchmarks through Perplexity in the Wild](https://www.arxiv.org/abs/2509.23488)*<br/>
+    *Arxiv* (2025)<br/>
+    Siyang Wu\*, Honglin Bao\*, **Sida Li**\*, Ari Holzman, James Evans
+</p>
+
+<p class="paper" markdown="1">
+    🔮 *[Prophet Arena: A Live Benchmark for Predictive Intelligence](https://www.prophetarena.co/)*<br/>
     *Project Launched; Paper in Preparation* (2025)<br/>
     [✍️ Blogpost](https://www.prophetarena.co/blog/welcome) | [💻 Package](https://ai-prophet.github.io/pm_ranking/)<br/>
     <u>Prophet Arena Team</u> (Leads: Tony Yang, Simon Mahns, **Sida Li** | Advisors: Jibang Wu, Haifeng Xu)
@@ -14,14 +21,14 @@ weight: 2
 ## Conference & Journal Papers
 
 <p class="paper" markdown="1">
-    *[ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning](https://arxiv.org/abs/2504.21370)*<br/>
+    📈 *[ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning](https://arxiv.org/abs/2504.21370)*<br/>
     *Neural Information Processing Systems* (**NeurIPS 2025**)<br/>
     [🕸 Website](https://jiazheng-wang-yes.github.io/ShorterBetter_ProjectPage/) | [💻 Code](https://github.com/JingyangYi/ShorterBetter) | [🤗 Huggingface (SB-7B)](https://huggingface.co/JingyangYi/SB_DS7B_alpha_2/tree/main)<br/>
     Jingyang Yi, Jiazheng Wang, **Sida Li**
 </p>
 
 <p class="paper" markdown="1">
-    *[Prediction-Powered Adaptive Shrinkage Estimation](https://arxiv.org/abs/2502.14166)*<br/>
+    ⚙️ *[Prediction-Powered Adaptive Shrinkage Estimation](https://arxiv.org/abs/2502.14166)*<br/>
     *International Conference on Machine Learning* (**ICML 2025**)<br/>
     [📒 Slides](https://drive.google.com/file/d/1ndle1kcX7jKnsyVYRcS_JNwLssjqu_1n/view?usp=sharing) | [📄 OpenReview](https://openreview.net/forum?id=3xvnJS8H1v) | [💻 Code](https://github.com/listar2000/prediction-powered-adaptive-shrinkage)<br/>
     **Sida Li**, Nikolaos Ignatiadis
