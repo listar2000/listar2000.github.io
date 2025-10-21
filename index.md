@@ -6,7 +6,7 @@ exclude_title: true
 nav_exclude: true
 ---
 
-<img class="headshot" src="assets/img/headshot.jpg">
+<img class="headshot" src="assets/img/avatar-small.png">
 
 I am an second-year Ph.D. student at UChicago [Data Science Institute](https://datascience.uchicago.edu/) (DSI). At DSI, I have the pleasure of working with [Prof. Nikolaos Ignatiadis](https://nignatiadis.github.io/) and [Prof. Haifeng Xu](https://www.haifeng-xu.com/). Previously, I finished my M.S. in Statistics under the supervision of [Prof. Daniel Sanz-Alonso](https://sites.google.com/a/uchicago.edu/sanz-alonso/). I am also a part of the [AER Lab](https://musslick.github.io/AER_website/About.html) under the mentorship of [Prof. Sebastian Musslick](https://smusslick.com/). Here is my [Google Scholar](https://scholar.google.com/citations?user=XBTlUzUAAAAJ&hl=en&oi=sra).
 

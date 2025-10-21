@@ -12,16 +12,16 @@ _(\* for equal contribution)_
 </p>
 
 <p class="paper" markdown="1">
-    🔮 *[Prophet Arena: A Live Benchmark for Predictive Intelligence](https://www.prophetarena.co/)*<br/>
-    *Project Launched; Paper in Preparation* (2025)<br/>
-    [✍️ Blogpost](https://www.prophetarena.co/blog/welcome) | [💻 Package](https://ai-prophet.github.io/pm_ranking/)<br/>
-    <u>Prophet Arena Team</u> (Leads: Tony Yang, Simon Mahns, **Sida Li** | Advisors: Jibang Wu, Haifeng Xu)
+    🔮 *[<b>LLM-as-a-Prophet</b>: Understanding Predictive Intelligence with Prophet Arena](https://arxiv.org/abs/2510.17638)*<br/>
+    *Arxiv* (2025)<br/>
+    [🕸 Website](https://www.prophetarena.co/) | [✍️ Blogpost](https://www.prophetarena.co/blog/welcome) | [💻 Package](https://ai-prophet.github.io/pm_ranking/)<br/>
+    Qingchuan Yang\*, Simon Mahns\*, **Sida Li**\*, Anri Gu\*, Jibang Wu, Haifeng Xu
 </p>
 
 ## Conference & Journal Papers
 
 <p class="paper" markdown="1">
-    📈 *[ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning](https://arxiv.org/abs/2504.21370)*<br/>
+    📈 *[<b>ShorterBetter</b>: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning](https://arxiv.org/abs/2504.21370)*<br/>
     *Neural Information Processing Systems* (**NeurIPS 2025**)<br/>
     [🕸 Website](https://jiazheng-wang-yes.github.io/ShorterBetter_ProjectPage/) | [💻 Code](https://github.com/JingyangYi/ShorterBetter) | [🤗 Huggingface (SB-7B)](https://huggingface.co/JingyangYi/SB_DS7B_alpha_2/tree/main)<br/>
     Jingyang Yi, Jiazheng Wang, **Sida Li**
@@ -35,14 +35,14 @@ _(\* for equal contribution)_
 </p>
 
 <p class="paper" markdown="1">
-    *[AutoRA: Automated research assistant for closed-loop empirical research](https://joss.theoj.org/papers/10.21105/joss.06839.pdf)*<br/>
+    *[<b>AutoRA</b>: Automated research assistant for closed-loop empirical research](https://joss.theoj.org/papers/10.21105/joss.06839.pdf)*<br/>
     *Journal of Open Source Software* (2024)<br/>
     Sebastian Musslick, Benjamin Andrew, Chad C Williams, **Sida Li**, Ioana Marinescu, Marina Dubova, George T Dang, Younes Strittmatter, John G Holland
 </p>
 
 ## Workshop & Other Papers
 <p class="paper" markdown="1">
-    *[GFN-SR: Generative Flow Networks for Symbolic Regression]({{site.baseurl}}/assets/pdf/gfn.pdf)*<br/>
+    *[<b>GFN-SR</b>: Generative Flow Networks for Symbolic Regression]({{site.baseurl}}/assets/pdf/gfn.pdf)*<br/>
     *NeurIPS AI4Science* (2023)<br/>
     **Sida Li**, Ioana Marinescu, Sebastian Musslick
 </p>
