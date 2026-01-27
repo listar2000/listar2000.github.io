@@ -7,13 +7,13 @@ weight: 2
 _(\* for equal contribution)_
 <p class="paper" markdown="1">
     🗺️ *[Mapping Overlaps in Benchmarks through Perplexity in the Wild](https://www.arxiv.org/abs/2509.23488)*<br/>
-    *Arxiv* (2025)<br/>
+    *International Conference on Learning Representations* (**ICLR 2026**)<br/>
     Siyang Wu\*, Honglin Bao\*, **Sida Li**\*, Ari Holzman, James Evans
 </p>
 
 <p class="paper" markdown="1">
     🔮 *[<b>LLM-as-a-Prophet</b>: Understanding Predictive Intelligence with Prophet Arena](https://arxiv.org/abs/2510.17638)*<br/>
-    *Arxiv* (2025)<br/>
+    *International Conference on Learning Representations* (**ICLR 2026**)<br/>
     [🕸 Website](https://www.prophetarena.co/) | [✍️ Blogpost](https://www.prophetarena.co/blog/welcome) | [💻 Package](https://ai-prophet.github.io/pm_ranking/)<br/>
     Qingchuan Yang\*, Simon Mahns\*, **Sida Li**\*, Anri Gu\*, Jibang Wu, Haifeng Xu
 </p>
