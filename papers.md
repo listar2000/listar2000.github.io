@@ -5,6 +5,22 @@ weight: 2
 ---
 ## Preprints & In-submission 
 _(\* for equal contribution)_
+
+<p class="paper" markdown="1">
+    📊 *[Empirical Bayes Rebiasing]({{site.baseurl}}/assets/pdf/reb.pdf)*<br/>
+    *Arxiv* (2026)<br/>
+    Wanyi Lin, **Sida Li**, Junmin Guan, Nikolaos Ignatiadis
+</p>
+
+<p class="paper" markdown="1">
+    ⬇️ *[LLM Probability Concentration: How Alignment Shrinks the Generative Horizon](https://arxiv.org/abs/2506.17871)*<br/>
+    *Arxiv* (2026)<br/>
+    Chenghao Yang, **Sida Li**, Ari Holzman
+</p>
+
+
+## Conference & Journal Papers
+
 <p class="paper" markdown="1">
     🗺️ *[Mapping Overlaps in Benchmarks through Perplexity in the Wild](https://www.arxiv.org/abs/2509.23488)*<br/>
     *International Conference on Learning Representations* (**ICLR 2026**)<br/>
@@ -17,8 +33,6 @@ _(\* for equal contribution)_
     [🕸 Website](https://www.prophetarena.co/) | [✍️ Blogpost](https://www.prophetarena.co/blog/welcome) | [💻 Package](https://ai-prophet.github.io/pm_ranking/)<br/>
     Qingchuan Yang\*, Simon Mahns\*, **Sida Li**\*, Anri Gu\*, Jibang Wu, Haifeng Xu
 </p>
-
-## Conference & Journal Papers
 
 <p class="paper" markdown="1">
     📈 *[<b>ShorterBetter</b>: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning](https://arxiv.org/abs/2504.21370)*<br/>
