@@ -22,6 +22,13 @@ _(\* for equal contribution)_
 ## Conference & Journal Papers
 
 <p class="paper" markdown="1">
+    🧬 *[Bayesian Symbolic Regression with Entropic Reinforcement Learning](https://openreview.net/forum?id=rRjYHBHq8X)*<br/>
+    *Conference on Uncertainty in Artificial Intelligence* (**UAI 2026**)<br/>
+    *(Temp ver, preprint coming soon)*<br/>
+    Oussama Boussif, Mohammed Mahfoud, Younesse Kaddar, Moksh Jain, **Sida Li**, Damiano Fornasiere, Xiaoyin Chen, Yoshua Bengio, Nikolay Malkin
+</p>
+
+<p class="paper" markdown="1">
     🗺️ *[Mapping Overlaps in Benchmarks through Perplexity in the Wild](https://www.arxiv.org/abs/2509.23488)*<br/>
     *International Conference on Learning Representations* (**ICLR 2026**)<br/>
     Siyang Wu\*, Honglin Bao\*, **Sida Li**\*, Ari Holzman, James Evans
