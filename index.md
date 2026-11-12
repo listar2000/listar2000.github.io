@@ -39,6 +39,7 @@ nav_exclude: true
 
 <h2 class="home-h">news</h2>
 <ul class="news">
+  <li><span class="d">2026</span><span>LLM Probability Concentration accepted to <b>TMLR</b>.</span></li>
   <li><span class="d">2026</span><span>Empirical Bayes Rebiasing accepted to <b>NeurIPS 2026</b>.</span></li>
   <li><span class="d">2026</span><span>Bayesian symbolic regression paper accepted to <b>UAI 2026</b>.</span></li>
   <li><span class="d">2026</span><span>Prophet Arena and benchmark-overlap papers accepted to <b>ICLR 2026</b>.</span></li>

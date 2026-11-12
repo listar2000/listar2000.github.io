@@ -3,22 +3,19 @@ layout: full-width
 title: Papers
 weight: 2
 ---
-## Preprints & In-submission 
-_(\* for equal contribution)_
-
-<p class="paper" markdown="1">
-    ⬇️ *[LLM Probability Concentration: How Alignment Shrinks the Generative Horizon](https://arxiv.org/abs/2506.17871)*<br/>
-    *Arxiv* (2026)<br/>
-    Chenghao Yang, **Sida Li**, Ari Holzman
-</p>
-
-
 ## Conference & Journal Papers
+_(\* for equal contribution)_
 
 <p class="paper" markdown="1">
     📊 *[Empirical Bayes Rebiasing]({{site.baseurl}}/assets/pdf/reb.pdf)*<br/>
     *Neural Information Processing Systems* (**NeurIPS 2026**)<br/>
     Wanyi Lin, **Sida Li**, Junmin Guan, Nikolaos Ignatiadis
+</p>
+
+<p class="paper" markdown="1">
+    ⬇️ *[LLM Probability Concentration: How Alignment Shrinks the Generative Horizon](https://arxiv.org/abs/2506.17871)*<br/>
+    *Transactions on Machine Learning Research* (**TMLR 2026**)<br/>
+    Chenghao Yang, **Sida Li**, Ari Holzman
 </p>
 
 <p class="paper" markdown="1">
