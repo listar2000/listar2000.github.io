@@ -14,7 +14,7 @@ I work on **reinforcement learning for LLM agents** and on **statistical methods
 
 - **Training agents.** I am a core contributor to [rLLM](https://github.com/rllm-org/rllm), an open-source framework for agentic RL, and I have worked on making reasoning models stop overthinking ([ShorterBetter](https://arxiv.org/abs/2504.21370)).
 - **Evaluating models.** I help build [Prophet Arena](https://www.prophetarena.co/), which tests LLMs on forecasting real-world events, and I have studied what benchmarks actually measure and how alignment narrows what models generate.
-- **Empirical Bayes.** I develop estimators that combine a small amount of reliable data with a large amount of cheap ML predictions, with guarantees on how well they do ([PAS](https://arxiv.org/abs/2502.14166)).
+- **Prediction-powered inference.** I develop estimators that combine a small amount of reliable data with a large amount of cheap ML predictions, using empirical Bayes ideas to get guarantees on how well they do ([PAS](https://arxiv.org/abs/2502.14166)).
 
 From March to September 2026, I was a Research Intern at [Snowflake AI Research](https://www.snowflake.com/en/product/ai/ai-research/), working on post-training agentic systems. I am currently a Member of Technical Staff (MTS) Intern at **Mobius Intelligence**, building synthetic environments for agentic RL.
 
