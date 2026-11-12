@@ -1,0 +1,133 @@
+% CV source, reconstructed from the previous cv.pdf. Build: pdflatex cv.tex
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.85in,top=0.6in,bottom=0.7in]{geometry}
+\usepackage{hyperref}
+\hypersetup{pdfborder={0 0 1},urlbordercolor={0 1 1},linkbordercolor={1 0 0}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\usepackage{ragged2e}
+
+\newlength{\labw}\setlength{\labw}{1.15in}
+\newenvironment{sect}[1]{%
+  \begin{list}{}{\setlength{\leftmargin}{\labw}\setlength{\labelwidth}{\labw}%
+  \setlength{\labelsep}{0pt}\setlength{\itemsep}{0pt}\setlength{\topsep}{0pt}\setlength{\parsep}{0pt}}%
+  \item[{\raisebox{0pt}[0pt][0pt]{\parbox[t]{\labw}{\bfseries\raggedright\MakeUppercase{#1}}}}]}%
+  {\end{list}\vspace{1.1em}}
+\newcommand{\entry}[2]{\textbf{#1}\hfill #2\\}
+\newcommand{\job}[3]{\textbf{#1}, #2\hfill\textit{#3}\\}
+\newcommand{\paper}[1]{#1\par\vspace{0.7em}}
+\newcommand{\me}{\textbf{Sida Li}}
+\newcommand{\lk}[2]{\href{#1}{#2}}
+
+\begin{document}
+\sloppy
+\begin{center}
+{\Huge\bfseries Sida (Star) Li}\\[3pt]
+(510)-847-2494 $\diamond$ \href{mailto:listar2000@uchicago.edu}{listar2000@uchicago.edu} $\diamond$ \href{https://listar2000.github.io/}{https://listar2000.github.io/}
+\end{center}
+\vspace{0.6em}
+
+\begin{sect}{Education}
+\entry{The University of Chicago}{Sept 2024 - Now}
+\textit{Ph.D.}, Data Science Institute\\
+Mentors: Haifeng Xu, Nikolaos Ignatiadis\\
+\entry{The University of Chicago}{Sept 2022 - June 2024}
+\textit{Master of Science}, Statistics\hfill GPA: 3.97\\
+Thesis Mentor: Daniel Sanz-Alonso\\
+\entry{University of California, Berkeley}{August 2018 - May 2022}
+\textit{Bachelor of Arts}, Statistics \& Computer Science\hfill GPA: 3.95\\
+Statistics Department Citation (Valedictorian) Winner
+\end{sect}
+
+\begin{sect}{Research\\Interests}
+Reinforcement learning for LLM agents (environments, rewards, and training infrastructure), evaluation of language models, and prediction-powered inference: combining a small amount of reliable data with a large amount of cheap ML predictions, using empirical Bayes ideas.
+\end{sect}
+
+\begin{sect}{Preprints}
+\paper{Wanyi Lin, \me, Junmin Guan, Nikolaos Ignatiadis. ``Empirical Bayes Rebiasing.'' \textbf{Preprint, 2026.} [\lk{https://listar2000.github.io/assets/pdf/reb.pdf}{PDF}]}
+\paper{\textbf{Chenghao Yang}, \me, Ari Holzman. ``LLM Probability Concentration: How Alignment Shrinks the Generative Horizon.'' \textbf{In Submission.} [\lk{https://arxiv.org/abs/2506.17871}{Preprint}]}
+\end{sect}
+
+\begin{sect}{Papers \&\\Reports}
+\paper{Oussama Boussif, Mohammed Mahfoud, Younesse Kaddar, Moksh Jain, \me, Damiano Fornasiere, Xiaoyin Chen, Yoshua Bengio, Nikolay Malkin. ``Bayesian Symbolic Regression with Entropic Reinforcement Learning.'' \textbf{Conference on Uncertainty in Artificial Intelligence (UAI) 2026.} [\lk{https://openreview.net/forum?id=rRjYHBHq8X}{OpenReview}]}
+\paper{\textbf{Siyang Wu*, Honglin Bao*, Sida Li*}, Ari Holzman, James Evans. ``Mapping Overlaps in Benchmarks through Perplexity in the Wild.'' \textbf{International Conference on Learning Representations (ICLR) 2026.} [\lk{https://arxiv.org/abs/2509.23488}{Arxiv}]}
+\paper{\textbf{Qingchuan Yang*, Simon Mahns*, Sida Li*, Anri Gu*}, Jibang Wu, Haifeng Xu. ``LLM-as-a-Prophet: Understanding Predictive Intelligence with Prophet Arena.'' \textbf{International Conference on Learning Representations (ICLR) 2026}. [\lk{https://www.prophetarena.co/blog/welcome}{Blogpost}] [\lk{https://www.prophetarena.co/}{Platform}] [\lk{https://arxiv.org/abs/2510.17638}{Arxiv}]}
+\paper{Jingyang Yi, Jiazheng Wang, \me. ``ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning.'' \textbf{Neural Information Processing Systems (NeurIPS) 2025}. [\lk{https://arxiv.org/abs/2504.21370}{ArXiv}]}
+\paper{\me, Nikolaos Ignatiadis. ``Prediction-Powered Adaptive Shrinkage Estimation.'' \textbf{International Conference on Machine Learning (ICML) 2025}. [\lk{https://arxiv.org/abs/2502.14166}{ArXiv}]}
+\paper{Sebastian Musslick, Benjamin Andrew, Chad C. Williams, \me, Ioana Marinescu, Marina Dubova, George T. Dang, Younes Strittmatter, John G. Holland. ``AutoRA: Automated Research Assistant for Closed-Loop Empirical Research.'' \textbf{Journal of Open Source Software, 2024.} [\lk{https://joss.theoj.org/papers/10.21105/joss.06839.pdf}{Link}]}
+\paper{\me, Ioana Marinescu, Sebastian Musslick. ``GFN-SR: Symbolic Regression with Generative Flow Networks.'' \textbf{NeurIPS 2023 AI4Science Workshop}. [\lk{https://arxiv.org/abs/2312.00396}{ArXiv}] [\lk{https://drive.google.com/file/d/1qBjV_ofANjiBCeQI1pBN_dScmUChO5vH/view?usp=sharing}{Poster}]}
+\paper{Sebastian Musslick, Joshua Hewson, Ben Andrew, \me, George Dang, John Gerrard Holland. ``Evaluating Computational Discovery in the Behavioral and Brain Sciences.'' \textbf{AAAI 2023 Spring Symposium Series, Computational Approaches to Scientific Discovery}. [\lk{http://cogsys.org/symposium/discovery-2023/abstracts/Abstract_3481.pdf}{Talk Abstract}]}
+Michael Estrada, \me, Xiangyu Cai. ``Feedback Linearization of Car Dynamics for Racing via Reinforcement Learning.'' \textbf{Preprint, 2021}. [\lk{https://arxiv.org/abs/2110.10441}{Link}]
+\end{sect}
+
+\begin{sect}{Open Source}
+\textbf{rLLM (Agentic Reinforcement Learning)} [\lk{https://x.com/rllm_project/status/2029289280062013452}{Recent Blogpost}] [\lk{https://github.com/rllm-org/rllm}{Github 5.2K stars}]\\
+Core contributor of the project. Maintaining the rLLM ecosystem (social media, developer Slack channel, etc.) and building the agent orchestration layer that allows post-training any agentic program using any algorithm.\par\vspace{0.7em}
+\textbf{Automated Research Assistant (AutoRA)} [\lk{https://autoresearch.github.io/autora/}{Link}]\\
+An open-source framework for automating multiple stages of the empirical research process, including model discovery, experimental design, data collection, and documentation for open science.
+\end{sect}
+
+\begin{sect}{Thesis}
+Beyond Vanilla Metropolis-Adjusted Langevin Dynamics. \textit{Mentored by Prof. Daniel Sanz-Alonso.}
+\end{sect}
+
+\begin{sect}{Invited Talk}
+Prediction-Powered Adaptive Shrinkage Estimation. \textit{International Seminar on Selective Inference}. April, 2025. [\lk{https://www.selectiveinferenceseminar.com/past-talks}{Link}]
+\end{sect}
+
+\begin{sect}{Work\\Experience}
+\job{Member of Technical Staff Intern}{Stealth Frontier Data Lab}{Fall 2026 - Present}
+Building synthetic environments for training LLM agents with reinforcement learning.\par\vspace{0.7em}
+\job{Research Scientist Intern}{Snowflake, Bellevue, WA}{March - Sept 2026}
+Worked within the post-training team to build agentic systems that quickly adapt to personalization needs with few-shot demonstrations.\par\vspace{0.7em}
+\job{Software Engineer Intern}{Duolingo, Pittsburgh, PA}{May - August 2021}
+Implemented internal tools in the ETL data pipeline that support efficient querying and computation on key metrics (e.g.\ daily bookings, active users); revised the A/B testing framework by enabling auto-correction in confidence intervals for ad-hoc metrics.\par\vspace{0.7em}
+\job{Data Consulting Intern}{Concha Inc., Berkeley, CA}{January - May 2020}
+Worked on predicting customers' hearing loss curves based on response data from online testing. Applied and evaluated existing machine learning methods such as regression trees and RNNs for the prediction tasks.
+\end{sect}
+
+\begin{sect}{Research\\Experience}
+\textbf{The University of Chicago Statistics Department}, UChicago, IL\\
+\textbf{Mentor:} Nikolaos Ignatiadis\hfill\textit{April 2024 - Present}\\
+Researching empirical Bayes mean estimation problems under semi-supervised assumptions. Extending the prediction-powered inference (PPI) framework to a compound decision setting and building a new empirical Bayes estimator that (1) utilizes massive unlabeled data with PPI de-biasing and (2) enjoys risk guarantees comparable to the full-Bayesian oracle estimator.\par\vspace{0.7em}
+\textbf{UChicago Master Thesis}, UChicago, IL\\
+\textbf{Mentor:} Daniel Sanz-Alonso\hfill\textit{June 2023 - April 2024}\\
+Worked on accelerating and generalizing Langevin Monte Carlo (LMC) methods for sampling. Experimented and verified how adding a curl matrix into the Langevin SDE accelerates convergence in various statistical models. Implemented and benchmarked a new Fisher-information based LMC method that outperformed traditional counterparts in various metrics.\par\vspace{0.7em}
+\textbf{Autonomous Empirical Research Group}, Brown University, RI\\
+\textbf{Mentor:} Sebastian Musslick\hfill\textit{March 2022 - Present}\\
+Researching symbolic regression (SR), the ML problem of searching for the best-fitting expression for a given dataset. Developed a hierarchical Bayesian framework for SR and a corresponding inference algorithm to sample from the posterior. Pioneered the design of a new SR method based on Generative Flow Networks (GFlowNets) that achieves SOTA performance in noisy settings.\par\vspace{0.7em}
+\textbf{Sandrine Dudoit Lab}, UC Berkeley, CA\\
+\textbf{Mentor:} Hector Roux de Bezieux and Koen Van den Berge\hfill\textit{January - May 2020}\\
+Participated through the Undergraduate Research Apprentice (URAP) program. Investigated how initialization affects unsupervised dimensionality reduction methods such as UMAP and t-SNE for scRNAseq data, with an emphasis on the preservation of global structures in low dimensional space.
+\end{sect}
+
+\begin{sect}{Academic\\Service}
+Reviewer for ICLR 2026, AISTATS 2026
+\end{sect}
+
+\begin{sect}{Awards}
+MMLS 2025, Best Poster Runner Up\hfill SU25\\
+UChicago M.S. Stat Scholarship (25\% tuition remission)\hfill FA22, FA23\\
+UC Berkeley Statistics Department Citation\hfill FA22\\
+UC Berkeley Dean's Honors List (top 10\% GPA)\hfill SP19, FA19, SP20, SP21\\
+Upsilon Pi Epsilon (top one third of CS majors)\hfill FA19, SP20, FA20, SP21
+\end{sect}
+
+\begin{sect}{Teaching}
+\textit{At UChicago}\\[2pt]
+DATA 37711 Foundations of ML \& AI (Part I) (TA)\hfill Fall 2025\\
+DATA 21200 Mathematical Methods for Data Science II (TA)\hfill Spring 2025\\[4pt]
+\textit{At UC Berkeley}\\[2pt]
+CS 198-097 Robot Autonomous Racing DeCal (Head Instructor)\hfill Fall 2021\\
+CS 198-097 Robot Autonomous Racing DeCal (Instructor)\hfill Fall 2020\\
+STAT 134 Probability Theory (Tutor)\hfill Spring 2020\\
+STAT 134 Probability Theory (Tutor)\hfill Fall 2019\\
+MATH 32 Precalculus (Tutor)\hfill Summer 2019
+\end{sect}
+
+\begin{sect}{Skills}
+\textbf{Languages:} English, Mandarin, Cantonese\\
+\textbf{Programming:} Python, R, Java, Javascript, Ruby, C++, \LaTeX\\
+\textbf{Frameworks:} PyTorch, Pandas, NumPy, Scikit-learn
+\end{sect}
+\end{document}

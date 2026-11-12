@@ -570,3 +570,36 @@ hr.slender {
 }
 
 
+
+// ---------- Homepage (index.md) ----------
+header > nav.group { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; }
+header > nav.group ul.topnav { width: auto; list-style: none; }
+nav.group a.active:before, nav.group a.active:after { content: none; }
+header > nav.group ul.topnav li { display: inline-block; margin-top: 0; padding-right: 0; }
+header > nav.group ul.topnav li a { float: none; padding-right: 0; margin-left: 2rem; }
+header > nav.group a.active { border-bottom: 2px solid $contrast-color; padding-bottom: 0.2rem; }
+
+.full-width article .home { max-width: 60rem; }
+.full-width article .home p, .full-width article .home dd, .full-width article .home li { width: auto; padding-right: 0; }
+.home .hero { display: grid; grid-template-columns: 13rem 1fr; gap: 2.2rem; margin-top: 1.5rem; align-items: start; }
+.home .hero img { width: 13rem; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+.home .hero p { margin-top: 0.8rem; }
+.home .hero p.role { margin-top: 0; font-style: italic; color: #555; }
+.home .links { font-variant: small-caps; letter-spacing: 0.08em; font-size: 1.1rem; }
+.home .links a { margin-right: 1.1rem; }
+.home h2.home-h { font-style: normal; font-variant: small-caps; letter-spacing: 0.12em; font-size: 1.4rem; color: $contrast-color;
+  margin: 2.4rem 0 0.7rem; padding-bottom: 0.3rem; border-bottom: 1px solid #e6e3d6; line-height: 1.2; }
+.home dl.areas { display: grid; grid-template-columns: 13rem 1fr; column-gap: 2.2rem; row-gap: 0.9rem; font-size: 1.2rem; line-height: 2rem; }
+.home dl.areas dt { font-weight: bold; }
+.home dl.areas dd { margin: 0; }
+.home .now { background: #f7f3e6; border-left: 3px solid $contrast-color; padding: 0.9rem 1.3rem; font-size: 1.2rem; line-height: 2rem; }
+.full-width article .home ul.news { list-style: none; padding-left: 0; }
+.home ul.news li { display: grid; grid-template-columns: 7rem 1fr; margin-top: 0.3rem; padding-left: 0; }
+.home ul.news .d { color: #777; font-style: italic; }
+
+@media (max-width: 760px) {
+  .home .hero, .home dl.areas { grid-template-columns: 1fr; }
+  .home .hero img { margin: 0 auto; }
+  .home dl.areas { row-gap: 0.2rem; }
+  .home dl.areas dd { margin-bottom: 0.8rem; }
+}

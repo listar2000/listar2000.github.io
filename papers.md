@@ -81,7 +81,7 @@ _(\* for equal contribution)_
 </p>
 
 <p class="paper" markdown="1">
-    *[Feedback Linearization of Car Dynamics for Racing viar Reinforcement Learning](https://www.arxiv.org/abs/2110.10441)*<br/>
+    *[Feedback Linearization of Car Dynamics for Racing via Reinforcement Learning](https://www.arxiv.org/abs/2110.10441)*<br/>
     *Arxiv* (2021)<br/>
     Michael Estrada, **Sida Li**, Xiangyu Cai
 </p>
