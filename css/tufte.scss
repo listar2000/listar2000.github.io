@@ -603,3 +603,56 @@ header > nav.group a.active { border-bottom: 2px solid $contrast-color; padding-
   .home dl.areas { row-gap: 0.2rem; }
   .home dl.areas dd { margin-bottom: 0.8rem; }
 }
+
+// ---------- Phone polish (applies below 760px) ----------
+@media screen and (max-width: 760px) {
+  // Larger base type: body text was ~13px on phones.
+  html { font-size: 14px; }
+
+  // Even side margins instead of the desktop 12.5% left gutter.
+  body, body.full-width { width: auto; max-width: 100%; margin: 0; padding: 0 1.25rem; }
+  article { padding-top: 0.5rem; }
+  p, li, h1, h2, h3, a { overflow-wrap: break-word; }
+
+  // Text blocks and lists use the full column; the 45% list width squeezed ordered lists.
+  p, footer, div.mathblock, .full-width article p { width: 100%; padding-right: 0; }
+  ul, ol, .full-width article ul, .full-width article ol { width: 100%; padding-left: 1.4rem; box-sizing: border-box; }
+  ul.footer-links { padding-left: 0; }
+  li { padding-right: 0; }
+  pre code { width: 100%; }
+  blockquote p, blockquote footer { width: 100%; padding-left: 4%; padding-right: 0; }
+  figure, figure img.maincolumn { max-width: 100%; }
+
+  // Headings scaled down so long titles do not dominate the screen.
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.65rem; line-height: 1.15; }
+  h3 { font-size: 1.4rem; line-height: 1.2; }
+
+  // Header: name, then nav aligned to the same left edge.
+  header > nav.group { display: block; }
+  header > nav.group h1 { font-size: 2.1rem; padding-top: 1rem !important; }
+  header > nav.group ul.topnav { float: none !important; display: block; width: 100%; padding-left: 0; margin-top: 0.4rem; }
+  header > nav.group ul.topnav li { display: inline-block; }
+  header > nav.group ul.topnav li a { margin-left: 0; margin-right: 1.6rem; padding-top: 0.6rem; font-size: 1.05rem; }
+  hr.slender { margin-top: 1rem; margin-bottom: 1rem; }
+
+  // Homepage.
+  .home .hero { gap: 1rem; margin-top: 0.5rem; }
+  .home .hero img { width: 9.5rem; }
+  .home .hero p.role { text-align: center; }
+  .home .links { font-size: 1.05rem; line-height: 2.2rem; text-align: center; }
+  .home .links a { margin: 0 0.5rem; }
+  .home h2.home-h { margin-top: 1.8rem; }
+  .home dl.areas { font-size: 1.1rem; line-height: 1.75rem; }
+  .home .now { font-size: 1.1rem; line-height: 1.75rem; padding: 0.7rem 0.9rem; }
+  .home ul.news li { grid-template-columns: 3.4rem 1fr; line-height: 1.6rem; margin-top: 0.6rem; }
+
+  // Papers: a thin rule instead of a 20px indent.
+  p.paper { margin-left: 0; padding-left: 0.8rem; border-left: 2px solid #e6e3d6; line-height: 1.65rem; box-sizing: border-box; }
+
+  // Blog listing.
+  .content-listing, ul.content-listing li.listing { width: 100%; padding: 0; }
+  ul.content-listing { padding-left: 0 !important; }
+
+  footer { padding-left: 0; padding-right: 0; }
+}

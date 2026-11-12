@@ -6,7 +6,7 @@
             <h1 style="padding-top:.5em; color: #a00000; margin-bottom: 0;"><strong>Sida (Star) Li</strong></h1>
         </ul>
 	<ul class="topnav">    
-        <li><a class="right" href="{{site.baseurl}}/">Home</a></li>
+        <li><a class="{% if page.url == "/" %}active {% endif %}right" href="{{site.baseurl}}/">Home</a></li>
         {% assign pages = site.pages | sort:"weight" | reverse %}
 	{% for node in pages %}
             {% if node.title %}
