@@ -39,6 +39,7 @@ nav_exclude: true
 
 <h2 class="home-h">news</h2>
 <ul class="news">
+  <li><span class="d">2026</span><span>Empirical Bayes Rebiasing accepted to <b>NeurIPS 2026</b>.</span></li>
   <li><span class="d">2026</span><span>Bayesian symbolic regression paper accepted to <b>UAI 2026</b>.</span></li>
   <li><span class="d">2026</span><span>Prophet Arena and benchmark-overlap papers accepted to <b>ICLR 2026</b>.</span></li>
   <li><span class="d">2025</span><span>ShorterBetter at <b>NeurIPS 2025</b>; PAS at <b>ICML 2025</b>.</span></li>
